@@ -1,0 +1,116 @@
+{
+  "version": "1.0",
+  "lastUpdated": "2026-05-18",
+  "episodes": [
+    {
+      "id": "ep01",
+      "num": "EP.01",
+      "title": "AI Replaces How We Think",
+      "tagline": "你被質疑「散播 AI 恐懼」要為自己的見解辯護",
+      "tag": "💼 商務 · 哲學",
+      "lines": [
+        {"role":"host", "en":"Tonight on HARDtalk — my guest argues that AI won't take your job, but it will replace how you think. <em>You said that</em>. Now — isn't that exactly the kind of <em>fear-mongering headline</em> that drives clicks but doesn't actually help anyone?", "tw":"今晚 HARDtalk——我的來賓主張 AI 不會搶你工作，但會取代你思考的方式。你說過這句話。這不就是那種只為流量散播恐懼、對任何人都沒實際幫助的標題嗎？"},
+        {"role":"you", "en":"Fair point — but <em>I'd push back on the framing</em>. Calling it fear-mongering assumes the concern isn't real. The data actually shows the opposite. <em>I'm not saying be afraid</em> — I'm saying be selective about where you outsource your thinking. Those are very different things.", "tw":"公平的質疑——但我得反駁這個框架。把它叫做散播恐懼，等於假設這個擔憂不是真的。數據實際上顯示相反的東西。我不是叫人害怕——我是說對你外包思考的地方要慎選。這是兩件完全不同的事。"},
+        {"role":"host", "en":"Okay, but give me a <em>specific example</em>. Where exactly should someone NOT use AI? <em>Don't give me a principle — give me a case</em>.", "tw":"好，給我一個具體例子。到底什麼時候人不該用 AI？不要給我原則——給我案例。"},
+        {"role":"you", "en":"<em>Here's a concrete one</em>. Last quarter, I had to write a tough email firing a vendor. I used AI for the first draft. It was polite, professional, and <em>completely missed the point</em>. The point was — I needed to convey that trust was broken. <em>AI can't feel betrayal</em>. That's the line.", "tw":"給你一個具體的。上一季我要寫一封解雇供應商的信。我用 AI 寫初稿。內容禮貌、專業、但完全沒抓到重點。重點是——我需要傳達『信任已經破裂』。AI 感受不到背叛。這就是界線。"},
+        {"role":"host", "en":"But six months ago, you wrote a post saying — and <em>I quote</em> — '<em>AI will democratize executive thinking</em>.' Now you're warning against it. <em>Which is it?</em>", "tw":"但六個月前你寫過貼文說——我引述——『AI 將讓決策思維民主化』。現在你又警告它的危險。到底是哪個？"},
+        {"role":"you", "en":"<em>Good — you've done your homework</em>. Yes, I said both. And <em>I stand by both</em>. Six months ago, AI was a tool we picked up. Today, it's a tool that's picking <em>us</em> up. And honestly — <em>I changed my mind</em>. It was the moment my team stopped having opinions in meetings — they'd just check with ChatGPT first. <em>That's when democratization turned into dependence</em>.", "tw":"很好——你做足了功課。是的，兩句我都說過。而且我兩個都站得住腳。六個月前 AI 是我們拿起來用的工具。今天它是把我們拿起來用的工具。老實說——我改變了想法。是當我發現團隊開會不再有觀點——他們都先去問 ChatGPT。那一刻民主化變成了依賴。"},
+        {"role":"host", "en":"You keep saying '<em>be selective</em>.' But how is the average person supposed to know which decisions deserve AI and which don't? <em>Isn't your advice useless without a clear line?</em>", "tw":"你一直說『要選擇性使用』。但一般人怎麼知道哪些決定該用 AI、哪些不該？你的建議沒有清楚界線，不就沒用嗎？"},
+        {"role":"you", "en":"<em>Here's the clear line</em>. If the decision can be reversed in a day, use AI. If it can't — like firing someone, or choosing a co-founder — keep AI out. <em>Reversibility is the test</em>.", "tw":"界線在這裡。如果這個決定能在一天內逆轉，用 AI。如果不能——比如解雇人、選共同創辦人——AI 不要碰。可逆性就是檢驗標準。"},
+        {"role":"host", "en":"Some critics would say — you're a tech executive making money from AI products. Isn't this whole 'be careful' message <em>just a marketing strategy?</em>", "tw":"批評者會說——你是靠 AI 產品賺錢的科技主管。你這套『要小心』的訊息不就是行銷策略嗎？"},
+        {"role":"you", "en":"<em>Fair criticism</em> — and you're partly right. I do make money from AI. <em>That's exactly why my warning carries weight</em>. If I had no skin in the game, this would be cheap commentary. But I do — which means <em>I'm biting the hand that feeds me</em>.", "tw":"公平的批評——你說對了一半。我確實靠 AI 賺錢。這正是為什麼我的警告有份量。如果我沒利害關係，這就是廉價評論。但我有——這代表我在咬餵養我的那隻手。"},
+        {"role":"host", "en":"Final question. <em>In one sentence</em> — what would you tell a 25-year-old today?", "tw":"最後一個問題。用一句話——你會跟今天的 25 歲年輕人說什麼？"},
+        {"role":"you", "en":"<em>Don't outsource the thinking that makes you, you</em>.", "tw":"不要外包那些讓你成為你的思考。"},
+        {"role":"host", "en":"Thank you for coming on HARDtalk.", "tw":"謝謝你來上 HARDtalk。"}
+      ]
+    },
+    {
+      "id": "ep02",
+      "num": "EP.02",
+      "title": "Is Remote Work Already Dead?",
+      "tagline": "遠端工作真的結束了嗎？你被質疑「躲在家」要為遠端辯護",
+      "tag": "🏠 生活 · 文化",
+      "lines": [
+        {"role":"host", "en":"Welcome to HARDtalk. My guest just published an essay arguing that '<em>remote work isn't dying, it's evolving</em>.' But the facts speak for themselves. <em>Google, Amazon, JPMorgan — they've all ordered staff back</em>. Aren't you just <em>defending a sinking ship?</em>", "tw":"歡迎來到 HARDtalk。我的來賓剛發表一篇文章主張『遠端工作沒有死，它在進化』。但事實擺在眼前。Google、Amazon、JPMorgan 都召回員工。你不就是在捍衛一艘正在沉的船嗎？"},
+        {"role":"you", "en":"Three CEOs making a decision doesn't make a trend, Stephen. <em>It makes headlines</em>. The actual data shows hybrid is now the default for <em>over 60% of knowledge workers</em>. The ship isn't sinking. The headlines are.", "tw":"三個 CEO 做了一個決定不代表是趨勢，Stephen。那只是新聞標題。實際數據顯示 60% 以上知識工作者現在默認混合制。沉的不是船，是新聞標題。"},
+        {"role":"host", "en":"But the people making the calls — Jamie Dimon, Andy Jassy — they're not stupid. They have access to internal productivity data. <em>If remote work were so great, why are they ending it?</em>", "tw":"但做決定的人——Jamie Dimon、Andy Jassy——他們不笨。他們手上有內部生產力數據。如果遠端工作這麼好，為什麼他們要結束？"},
+        {"role":"you", "en":"<em>The answer isn't productivity</em>. It's <em>control</em>. Dimon admitted as much in his shareholder letter. He said, 'we need people to be available.' Available, not productive. <em>Those are different metrics</em>. When CEOs can't measure productivity properly, they reach for proximity.", "tw":"答案不是生產力。是控制。Dimon 在他的股東信裡承認了。他說『我們需要人能隨時被找到』。Available，不是 productive。這是兩個不同的指標。當 CEO 沒辦法好好衡量生產力，他們就抓 proximity。"},
+        {"role":"host", "en":"That's a convenient theory. But isn't it true that <em>your generation</em> — the work-from-home generation — is simply <em>less ambitious?</em>", "tw":"這個理論很方便。但你們這一代——居家工作世代——是不是只是比較沒野心？"},
+        {"role":"you", "en":"<em>I'd reject that framing entirely</em>. Ambition isn't measured in commute hours. <em>The most ambitious companies of the last five years — OpenAI, Anthropic, Stripe — all started remote-first</em>. Sitting in an office for 10 hours isn't ambition. It's <em>performance theater</em>.", "tw":"我完全拒絕這個框架。野心不是用通勤時數衡量的。過去五年最有野心的公司——OpenAI、Anthropic、Stripe——全部都是 remote-first 起家。坐在辦公室十小時不是野心。那是表演工作。"},
+        {"role":"host", "en":"<em>Performance theater</em> — strong words. But consider this. <em>Junior employees</em> need mentorship, observation, water-cooler learning. <em>You're robbing an entire generation of those skills</em>.", "tw":"表演工作——很重的話。但想想這個。資淺員工需要 mentorship、觀察、茶水間學習。你們剝奪了整個世代這些技能。"},
+        {"role":"you", "en":"That's a real concern — <em>I'll give you that one</em>. But the solution isn't five days in the office. <em>It's intentional in-person time</em>. My team meets in person two days a quarter. Those four days a year produce more learning than 200 days of cubicle silence. <em>Quality of presence beats quantity of presence</em>.", "tw":"這是真實的擔憂——這點我承認。但解法不是一週五天進辦公室。是有意識的面對面時間。我的團隊每季實體聚會兩天。那一年四天產出的學習比 200 天小隔間的沉默多。在場的品質勝過在場的數量。"},
+        {"role":"host", "en":"<em>Aren't you just defending the privilege of the few?</em>", "tw":"你是不是在捍衛少數人的特權？"},
+        {"role":"you", "en":"<em>You're right that I have privilege</em>. But denying knowledge workers flexibility because miners can't work from home is <em>solidarity through misery</em>. That helps no one.", "tw":"你完全說對我有特權。但因為礦工不能在家工作就拒絕給知識工作者彈性，這是『以痛苦相連』。對誰都沒幫助。"},
+        {"role":"host", "en":"Final question. <em>In one sentence</em> — what's the future of work?", "tw":"最後一個問題。用一句話——工作的未來是什麼？"},
+        {"role":"you", "en":"<em>The office is a tool, not a destination</em>.", "tw":"辦公室是工具，不是目的地。"},
+        {"role":"host", "en":"Provocative as ever. Thank you for joining HARDtalk.", "tw":"一如往常的挑釁。謝謝你來上 HARDtalk。"}
+      ]
+    },
+    {
+      "id": "ep03",
+      "num": "EP.03",
+      "title": "Should Founders Take Vacations?",
+      "tagline": "創業者該不該休假？你被質疑「真正的創業就是 24/7」",
+      "tag": "🌱 個人成長",
+      "lines": [
+        {"role":"host", "en":"My guest tonight is a founder who recently posted that he <em>takes four weeks of vacation per year</em>. Now — your competitors are working <em>80-hour weeks</em>. <em>Aren't you just losing the race while pretending you don't care?</em>", "tw":"我今晚的來賓是一位新創創辦人，最近發文說他每年休四週假。你的競爭對手一週工作 80 小時。你不就是在輸掉這場比賽、還假裝你不在意嗎？"},
+        {"role":"you", "en":"<em>I'd flip that question</em>. The founders working 80-hour weeks — <em>how many of them are still standing at year five?</em> Burnout isn't a badge of honor. It's a leading indicator of bad decisions. <em>Rest is a strategic asset</em>, not a luxury.", "tw":"我會把這個問題反過來。那些一週工作 80 小時的創辦人——他們有多少還能站到第五年？過勞不是榮譽勳章，是壞決定的領先指標。休息是策略性資產，不是奢侈品。"},
+        {"role":"host", "en":"But look at the founders who built the biggest companies — <em>Musk, Bezos, Zuckerberg</em>. They didn't take four weeks off. They built empires by <em>outworking everyone</em>. <em>Isn't that just the reality?</em>", "tw":"但看看那些建立最大公司的創辦人——Musk、Bezos、Zuckerberg。他們沒有休四週假。他們是靠『工作贏過所有人』建起帝國。這不就是現實嗎？"},
+        {"role":"you", "en":"<em>That's survivorship bias at its purest</em>. For every Bezos, there are <em>10,000 founders</em> who worked the same hours and failed. <em>Hours worked is not the variable that decides success</em>. Decisions are. Tired people make bad decisions. I'd rather work 40 sharp hours than 80 exhausted ones.", "tw":"這是最純粹的倖存者偏誤。每一個 Bezos 背後，有一萬個用相同時數工作但失敗的創辦人。時數不是決定成敗的變數。決策才是。累的人做爛決策。"},
+        {"role":"host", "en":"But your employees — <em>they don't get four weeks off</em>. <em>Doesn't that breed resentment?</em>", "tw":"但你的員工——他們沒有四週假。這不會引起怨恨嗎？"},
+        {"role":"you", "en":"<em>My employees get five weeks</em>. <em>One more than I do</em>. We built the company that way from day one. The resentment narrative only exists in companies where leaders <em>burn the candle and demand the same</em>.", "tw":"我的員工有五週假。比我多一週。我們從第一天就是這樣建公司的。怨恨這個說法只存在於『領導者燒蠟燭、要求員工也燒』的公司。"},
+        {"role":"host", "en":"That sounds idealistic. But surely you check email on vacation? <em>You're not really off, are you?</em>", "tw":"聽起來很理想。但你休假時一定還在收信吧？你其實沒有真的放下，對吧？"},
+        {"role":"you", "en":"<em>I genuinely don't</em>. My phone gets locked in a drawer. <em>Vacation isn't time off — it's the test of whether you've built a real organization</em>.", "tw":"我真的沒有。我的手機被鎖進抽屜。休假不是時間下班，是檢驗你有沒有建立一個真正組織的考試。"},
+        {"role":"host", "en":"Some would say — <em>this is privilege talking</em>. Early-stage founders can't afford to disappear.", "tw":"有人會說——這是特權在說話。早期創辦人沒辦法消失。"},
+        {"role":"you", "en":"<em>That's fair — but only partially</em>. Most early founders confuse <em>'I can't take a month off'</em> with <em>'I can't take a weekend off'</em>. <em>Sunday is not optional</em>. Even early.", "tw":"公平——但只有一半。大多數早期創辦人把『我不能休一個月』跟『我不能休一個週末』混為一談。週日不是可選的。即使在早期。"},
+        {"role":"host", "en":"Final question. <em>In one sentence</em> — what do most founders get wrong about work?", "tw":"最後一個問題。用一句話——大多數創辦人對工作搞錯了什麼？"},
+        {"role":"you", "en":"<em>They confuse motion with progress, and exhaustion with commitment</em>.", "tw":"他們把動作當進度，把疲憊當投入。"},
+        {"role":"host", "en":"A line worth posting. Thank you for joining HARDtalk.", "tw":"值得貼出來的一句話。謝謝你來上 HARDtalk。"}
+      ]
+    },
+    {
+      "id": "ep04",
+      "num": "EP.04",
+      "title": "When Should You Quit a Job You're Good At?",
+      "tagline": "什麼時候該離開你擅長的工作？你被追問「逃避能力舒適圈」",
+      "tag": "🌱 個人成長",
+      "lines": [
+        {"role":"host", "en":"My guest just left a senior role where he was a <em>top performer</em>. No scandal, no layoff — he just walked out. <em>Most people would call that a privileged tantrum</em>. <em>Why should anyone take your career advice seriously?</em>", "tw":"我的來賓剛從一家公司離開資深職位——他在那是 top performer。沒有醜聞、沒有裁員——他就走了。大多數人會說這是『有特權的鬧脾氣』。為什麼有人該認真看待你的職涯建議？"},
+        {"role":"you", "en":"<em>People don't have to</em>. But I'll tell you what I learned. <em>Being good at something is not the same as wanting to do it</em>. I was good at my job. I also stopped learning two years before I left. <em>That's the real signal</em> — whether the work still changes you.", "tw":"沒有人必須認真看。但我告訴你我學到什麼。擅長一件事跟想做這件事是兩回事。我擅長我的工作。我也在離開兩年前就停止學習了。這才是真正的訊號——這份工作還會不會改變你。"},
+        {"role":"host", "en":"That sounds <em>self-indulgent</em>. Most people work jobs they don't love. <em>That's called being an adult</em>.", "tw":"聽起來很自我中心。大多數人做著他們不愛的工作。那叫『當大人』。"},
+        {"role":"you", "en":"<em>I'd reject that premise</em>. I didn't quit to be unemployed — I quit to do harder work for less money. <em>That's not indulgence. That's investment</em>. <em>Sometimes the immature thing is staying out of fear</em>.", "tw":"我拒絕這個前提。我不是辭職去當失業者——我辭職去做更難的工作、領更少的錢。那不是放縱，是投資。有時候因為恐懼留下來才是不成熟的選擇。"},
+        {"role":"host", "en":"<em>You have responsibilities</em>. Family, mortgage. <em>Isn't this just a midlife crisis dressed up as wisdom?</em>", "tw":"你有責任。家庭、房貸。這不就是一場用智慧包裝的中年危機嗎？"},
+        {"role":"you", "en":"<em>I'd own that partially</em>. I asked myself — if I stay 10 more years, who do I become? The answer scared me. <em>Midlife crisis is when you panic. Midlife clarity is when you finally see clearly</em>. I think this was the second.", "tw":"我承認一部分。我問自己——如果我再待十年，我會變成誰？這個答案嚇到我。中年危機是你恐慌。中年清明是你終於看清楚。我想這是後者。"},
+        {"role":"host", "en":"<em>What if it doesn't work out?</em> Will you admit it was a mistake?", "tw":"如果新的路不順怎麼辦？你會承認那是個錯誤嗎？"},
+        {"role":"you", "en":"<em>I'd own it</em> — but I wouldn't call it a mistake. <em>A mistake is when you didn't think it through</em>. I thought this through for 18 months. <em>Calculated losses teach you more than easy wins</em>.", "tw":"如果失敗我會承認——但我不會稱它為錯誤。錯誤是你沒想清楚。我想了 18 個月。算過的失敗教你的比簡單的勝利多。"},
+        {"role":"host", "en":"<em>How do people know when it's time to leave?</em>", "tw":"人們怎麼知道什麼時候該離開？"},
+        {"role":"you", "en":"Ask two things. <em>Am I still becoming a person I want to be?</em> And <em>am I afraid to leave, or afraid I'll regret leaving?</em> Different fears point to different answers.", "tw":"問兩件事。我還在變成我想成為的人嗎？我害怕離開，還是害怕後悔離開？不同的恐懼指向不同的答案。"},
+        {"role":"host", "en":"Final question. <em>In one sentence</em> — what's the cost of staying somewhere too long?", "tw":"最後一個問題。用一句話——在一個地方待太久的代價是什麼？"},
+        {"role":"you", "en":"<em>You don't lose your job — you lose the version of yourself that could have existed</em>.", "tw":"你失去的不是工作——是你本來可以成為的那個版本的你。"},
+        {"role":"host", "en":"A haunting note to end on. Thank you.", "tw":"一個揮之不去的結尾。謝謝你。"}
+      ]
+    },
+    {
+      "id": "ep05",
+      "num": "EP.05",
+      "title": "Is Work-Life Balance a Lie?",
+      "tagline": "工作生活平衡是個謊言嗎？你被質疑「Balance 只是給弱者的安慰劑」",
+      "tag": "🏠 生活 · 哲學",
+      "lines": [
+        {"role":"host", "en":"My guest argues that '<em>work-life balance is a lie</em>.' That's a statement that makes <em>workaholics smile and parents furious</em>. <em>Which one are you trying to please?</em>", "tw":"我的來賓主張『工作生活平衡是個謊言』。這種話讓工作狂微笑、讓家長憤怒。你想討好哪一邊？"},
+        {"role":"you", "en":"<em>Neither</em>. The phrase 'work-life balance' implies <em>work and life are opposites on a scale</em>. They're not. <em>Work is part of life</em>. <em>That framing is what's broken</em>.", "tw":"兩邊都不討好。『工作生活平衡』這個詞暗示工作跟生活是天秤兩端。它們不是。工作是生活的一部分。壞掉的是這個框架。"},
+        {"role":"host", "en":"<em>That's a semantic dodge</em>. People mean — <em>I want to see my kids and not die of stress</em>. That's a basic human need.", "tw":"這是語意上的閃躲。人們的意思是——我想看到我的孩子、不要因壓力而死。這是基本人類需求。"},
+        {"role":"you", "en":"<em>You're absolutely right about the human need</em>. But people who chase 'balance' often achieve neither. The ones I see thriving don't talk about balance. <em>They talk about integration</em>. <em>Balance separates. Integration connects</em>.", "tw":"你完全說對人類需求。但追『平衡』的人通常兩邊都沒得到。我看到活得好的人不談平衡。他們談 integration。平衡是分離。Integration 是連接。"},
+        {"role":"host", "en":"<em>Integration sounds nice in a TED talk</em>. But for a single mother working two jobs — <em>what does integration even mean to her?</em> Isn't this just <em>privileged philosophy?</em>", "tw":"Integration 在 TED 演講聽起來很好。但對一個做兩份工作的單親媽媽——integration 對她意味著什麼？這不就是有特權的哲學嗎？"},
+        {"role":"you", "en":"<em>That's the fairest pushback you could make</em>. For someone with no slack, 'balance' is a luxury. But most people lecturing about balance are NOT that single mother. <em>For them, chasing balance is what keeps them stuck</em>.", "tw":"這是你能給的最公平的反擊。對沒有餘裕的人，平衡是奢侈品。但大多數說平衡的人不是那位單親媽媽。對他們來說，追平衡正是讓他們卡住的原因。"},
+        {"role":"host", "en":"So what does this 'integration' look like in practice? <em>Give me a Tuesday afternoon</em>.", "tw":"所以這個 integration 實際上長什麼樣？給我一個禮拜二下午。"},
+        {"role":"you", "en":"2pm strategy call. 3pm I pick up my daughter — that block is sacred. 3:30pm ice cream, fully present. 5pm back online for one important task. 7pm dinner. 9pm I write. <em>It's not balanced — but every part connects</em>. <em>That's integration</em>.", "tw":"2 點策略會議。3 點接女兒——那段時間神聖不可侵犯。3:30 一起吃冰淇淋，完全在場。5 點回線上完成一個重要任務。7 點晚餐。9 點寫東西。它不平衡——但每一段都連在一起。那就是 integration。"},
+        {"role":"host", "en":"That requires <em>enormous control over your schedule</em>. <em>Aren't you just describing a CEO's day?</em>", "tw":"這需要對行程有巨大的控制權。你不就是在描述一個 CEO 的一天嗎？"},
+        {"role":"you", "en":"<em>I won't deny the autonomy I have</em>. But most workers have <em>more control than they exercise</em>. That 3pm block? <em>That came from asking, not from being CEO</em>. <em>The first step toward integration isn't power. It's permission you give yourself</em>.", "tw":"我不否認我有自主權。但大多數員工擁有的控制權比他們行使的多。我 3 點那個時段？那是問來的，不是因為我是 CEO。通往 integration 的第一步不是權力，是你給自己的許可。"},
+        {"role":"host", "en":"Final question. <em>In one sentence</em> — what should we replace 'work-life balance' with?", "tw":"最後一個問題。用一句話——我們該用什麼取代『工作生活平衡』？"},
+        {"role":"you", "en":"<em>Stop trying to balance — start designing</em>.", "tw":"別再試著平衡——開始設計。"},
+        {"role":"host", "en":"A line for the times. Thank you.", "tw":"這個時代的一句話。謝謝你。"}
+      ]
+    }
+  ]
+}
