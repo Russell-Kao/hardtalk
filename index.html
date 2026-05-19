@@ -3,6 +3,9 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+<meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+<meta http-equiv="Pragma" content="no-cache">
+<meta http-equiv="Expires" content="0">
 <title>HARDtalk</title>
 <link rel="apple-touch-icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><circle cx='50' cy='50' r='40' fill='%23D4A574'/></svg>">
 <meta name="theme-color" content="#0A0A09">
@@ -131,9 +134,18 @@ body {
 .test-result { font-size: 11px; line-height: 1.6; margin-top: 8px; padding: 10px; background: var(--surface-2); border-radius: 7px; display: none; white-space: pre-wrap; word-break: break-word; }
 .sheet-close { width: 100%; background: var(--surface-2); border: none; color: var(--text); padding: 14px; border-radius: 11px; font-size: 14px; font-weight: 500; cursor: pointer; font-family: inherit; margin-top: 8px; }
 .version-tag { font-size: 10px; color: var(--text-3); text-align: center; padding: 6px; margin-bottom: 12px; }
+.update-banner { display: none; background: var(--accent); color: var(--bg); padding: 12px 18px; text-align: center; font-size: 13px; font-weight: 500; align-items: center; justify-content: center; gap: 10px; }
+.update-banner.show { display: flex; }
+.update-banner button { background: var(--bg); color: var(--accent); border: none; padding: 7px 16px; border-radius: 999px; font-size: 12px; font-weight: 600; cursor: pointer; font-family: inherit; }
+.update-banner button:active { transform: scale(0.96); }
 </style>
 </head>
 <body>
+
+<div class="update-banner" id="update-banner">
+  📦 有新版可用
+  <button onclick="forceReload()">重新整理</button>
+</div>
 
 <div class="topbar">
   <div class="logo"><span class="dot"></span><span id="topbar-title">HARDtalk</span></div>
@@ -208,6 +220,7 @@ body {
 
 <script>
 // ===== State =====
+const CLIENT_VERSION = '2';
 let provider = localStorage.getItem('mirror_provider') || 'browser';
 let openaiKey = localStorage.getItem('mirror_openai_key') || '';
 let elevenLabsKey = localStorage.getItem('mirror_elevenlabs_key') || '';
@@ -232,6 +245,9 @@ async function loadEpisodes() {
     const data = await r.json();
     episodes = data.episodes;
     document.getElementById('version-tag').textContent = `v${data.version} · 更新於 ${data.lastUpdated} · 共 ${episodes.length} 集`;
+    if (data.requiredClientVersion && String(data.requiredClientVersion) !== CLIENT_VERSION) {
+      document.getElementById('update-banner').classList.add('show');
+    }
     renderList();
   } catch (e) {
     document.getElementById('ep-list').innerHTML = `<div class="error"><strong>⚠️ 無法載入訪談資料</strong>${e.message}<br><br>確認 episodes.json 跟 index.html 在同個資料夾。</div>`;
@@ -338,6 +354,16 @@ document.querySelectorAll('.speed-pill').forEach(b => {
 
 function openSheet() { document.getElementById('sheet-mask').classList.add('show'); document.getElementById('sheet').classList.add('show'); }
 function closeSheet() { document.getElementById('sheet-mask').classList.remove('show'); document.getElementById('sheet').classList.remove('show'); }
+
+async function forceReload() {
+  try {
+    if ('caches' in window) {
+      const keys = await caches.keys();
+      await Promise.all(keys.map(k => caches.delete(k)));
+    }
+  } catch (e) { /* ignore */ }
+  location.href = location.pathname + '?_=' + Date.now();
+}
 
 // ===== List =====
 function renderList() {
