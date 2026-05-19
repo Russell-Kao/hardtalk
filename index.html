@@ -220,7 +220,8 @@ body {
 
 <script>
 // ===== State =====
-const CLIENT_VERSION = '2';
+const CLIENT_VERSION = '3';
+const AUDIO_CACHE_NAME = 'hardtalk-audio-v1';
 let provider = localStorage.getItem('mirror_provider') || 'browser';
 let openaiKey = localStorage.getItem('mirror_openai_key') || '';
 let elevenLabsKey = localStorage.getItem('mirror_elevenlabs_key') || '';
@@ -356,12 +357,7 @@ function openSheet() { document.getElementById('sheet-mask').classList.add('show
 function closeSheet() { document.getElementById('sheet-mask').classList.remove('show'); document.getElementById('sheet').classList.remove('show'); }
 
 async function forceReload() {
-  try {
-    if ('caches' in window) {
-      const keys = await caches.keys();
-      await Promise.all(keys.map(k => caches.delete(k)));
-    }
-  } catch (e) { /* ignore */ }
+  // Bust HTML cache via query string; keep audio cache (hardtalk-audio-v1) intact
   location.href = location.pathname + '?_=' + Date.now();
 }
 
@@ -534,10 +530,29 @@ function formatTime(sec) {
 }
 
 async function fetchLineAudio(line, rate, epId, idx) {
-  // 1) Pre-baked file from repo (OpenAI voices, baked at speed=0.92)
+  const staticUrl = `audio/${epId}/${idx}.mp3`;
+
+  // 1) Cache Storage — persistent across sessions, survives reloads
+  if ('caches' in window) {
+    try {
+      const cache = await caches.open(AUDIO_CACHE_NAME);
+      const hit = await cache.match(staticUrl);
+      if (hit) return { blob: await hit.blob(), playbackRate: rate / 0.92, source: 'cache' };
+    } catch (e) { /* fall through */ }
+  }
+
+  // 2) Network — pre-baked file from GitHub Pages; pin it into Cache Storage
   try {
-    const r = await fetch(`audio/${epId}/${idx}.mp3`, { cache: 'force-cache' });
-    if (r.ok) return { blob: await r.blob(), playbackRate: rate / 0.92, source: 'cache' };
+    const r = await fetch(staticUrl);
+    if (r.ok) {
+      if ('caches' in window) {
+        try {
+          const cache = await caches.open(AUDIO_CACHE_NAME);
+          await cache.put(staticUrl, r.clone());
+        } catch (e) { /* ignore — still return the blob */ }
+      }
+      return { blob: await r.blob(), playbackRate: rate / 0.92, source: 'cache' };
+    }
   } catch (e) { /* fall through to live API */ }
 
   const text = stripEm(line.en);

@@ -1,7 +1,7 @@
 {
   "version": "1.0",
   "lastUpdated": "2026-05-20",
-  "requiredClientVersion": "2",
+  "requiredClientVersion": "3",
   "episodes": [
     {
       "id": "ep01",
