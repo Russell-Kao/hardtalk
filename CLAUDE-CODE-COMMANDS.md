@@ -44,14 +44,25 @@
 2. 把下面這段 JSON 物件加到 episodes 陣列最末端
 3. 更新 lastUpdated 欄位為今天日期
 4. 確認 JSON 格式有效
-5. git add episodes.json
-6. git commit -m "Add EP.XX: [從 JSON 取 title]"
-7. git push origin main
-8. 告訴我幾分鐘後網址會更新
+5. 請我把 OPENAI_API_KEY 設好後，跑 node generate-audio.mjs 合成新音檔
+6. git add episodes.json audio/
+7. git commit -m "Add EP.XX: [從 JSON 取 title]"
+8. git push origin main
+9. 告訴我幾分鐘後網址會更新
 
 新訪談 JSON：
 [在這裡貼 Claude 給的整段 JSON 物件]
 ```
+
+## 預先合成音檔（首次或新集後）
+
+```powershell
+# PowerShell
+$env:OPENAI_API_KEY = "sk-..."
+node generate-audio.mjs
+```
+
+Script 會自動 skip 已存在的 mp3，所以重跑很便宜。產出在 `audio/{epId}/{idx}.mp3`。
 
 ---
 

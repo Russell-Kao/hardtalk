@@ -461,82 +461,6 @@ function stopAll() {
 
 function stripEm(t) { return t.replace(/<\/?em>/g, ''); }
 
-async function speak(text, role, rate) {
-  rate = rate || speechRate;
-  const plain = stripEm(text);
-  if (provider === 'elevenlabs' && elevenLabsKey) return speakEleven(plain, role, rate);
-  if (provider === 'openai' && openaiKey) return speakOpenAI(plain, role, rate);
-  return speakBrowser(plain, rate);
-}
-
-async function speakEleven(text, role, rate) {
-  const voiceId = role === 'host' ? ELEVEN_HOST : ELEVEN_YOU;
-  try {
-    const r = await fetch(`https://api.elevenlabs.io/v1/text-to-speech/${voiceId}`, {
-      method: 'POST',
-      headers: { 'xi-api-key': elevenLabsKey, 'Content-Type': 'application/json', 'Accept': 'audio/mpeg' },
-      body: JSON.stringify({ text, model_id: 'eleven_turbo_v2_5', voice_settings: { stability: 0.5, similarity_boost: 0.75, style: 0.3, use_speaker_boost: true } })
-    });
-    if (!r.ok) throw new Error(`ElevenLabs ${r.status}`);
-    const blob = await r.blob();
-    document.getElementById('engine-now').textContent = '🎙️ ElevenLabs';
-    document.getElementById('engine-now').style.color = 'var(--you)';
-    const url = URL.createObjectURL(blob);
-    const audio = new Audio(url);
-    audio.playbackRate = rate / 0.92;
-    currentAudio = audio;
-    return new Promise((resolve) => {
-      const done = () => { URL.revokeObjectURL(url); resolve(); };
-      audio.onended = done;
-      audio.onerror = (e) => { console.error('audio.onerror', e); done(); };
-      const p = audio.play();
-      if (p && p.catch) p.catch(e => { console.error('audio.play() rejected:', e); done(); });
-    });
-  } catch (e) {
-    console.error('ElevenLabs failed:', e);
-    if (openaiKey) return speakOpenAI(text, role, rate);
-    return speakBrowser(text, rate);
-  }
-}
-
-let openaiFailureNotified = false;
-async function speakOpenAI(text, role, rate) {
-  const voice = role === 'host' ? 'onyx' : 'echo';
-  try {
-    const r = await fetch('https://api.openai.com/v1/audio/speech', {
-      method: 'POST',
-      headers: { 'Authorization': `Bearer ${openaiKey}`, 'Content-Type': 'application/json' },
-      body: JSON.stringify({ model: 'tts-1', input: text, voice, speed: rate })
-    });
-    if (!r.ok) {
-      const errText = await r.text();
-      throw new Error(`HTTP ${r.status}: ${errText.slice(0, 200)}`);
-    }
-    const blob = await r.blob();
-    document.getElementById('engine-now').textContent = '🎙️ OpenAI';
-    document.getElementById('engine-now').style.color = 'var(--you)';
-    const url = URL.createObjectURL(blob);
-    const audio = new Audio(url);
-    currentAudio = audio;
-    return new Promise((resolve) => {
-      const done = () => { URL.revokeObjectURL(url); resolve(); };
-      audio.onended = done;
-      audio.onerror = (e) => { console.error('audio.onerror', e); done(); };
-      const p = audio.play();
-      if (p && p.catch) p.catch(e => { console.error('audio.play() rejected:', e); done(); });
-    });
-  } catch (e) {
-    console.error('OpenAI failed:', e);
-    document.getElementById('engine-now').textContent = '⚠️ OpenAI 失敗 · 改用內建';
-    document.getElementById('engine-now').style.color = 'var(--host)';
-    if (!openaiFailureNotified) {
-      openaiFailureNotified = true;
-      alert(`OpenAI 失敗：${e.message}\n\n暫切瀏覽器內建。按 F12 看 Console。`);
-    }
-    return speakBrowser(text, rate);
-  }
-}
-
 function speakBrowser(text, rate) {
   document.getElementById('engine-now').textContent = '🔊 瀏覽器內建';
   document.getElementById('engine-now').style.color = 'var(--text-3)';
@@ -559,7 +483,20 @@ async function speakLineByIdx(idx) {
   const line = ep.lines[idx];
   const el = document.querySelector(`.line[data-idx="${idx}"]`);
   if (el) el.classList.add('playing');
-  await speak(line.en, line.role, speechRate);
+  try {
+    const cached = await fetchLineAudio(line, speechRate, currentEpId, idx);
+    if (cached) {
+      const label = cached.source === 'cache' ? '💾 快取' : cached.source === 'openai' ? '🎙️ OpenAI' : '🎙️ ElevenLabs';
+      document.getElementById('engine-now').textContent = label;
+      document.getElementById('engine-now').style.color = 'var(--you)';
+      await playBlob(cached);
+    } else {
+      await speakBrowser(stripEm(line.en), speechRate);
+    }
+  } catch (e) {
+    console.error('speakLineByIdx error:', e);
+    await speakBrowser(stripEm(line.en), speechRate);
+  }
   if (el) el.classList.remove('playing');
 }
 
@@ -570,7 +507,13 @@ function formatTime(sec) {
   return `${m}:${s.toString().padStart(2, '0')}`;
 }
 
-async function fetchLineAudio(line, rate) {
+async function fetchLineAudio(line, rate, epId, idx) {
+  // 1) Pre-baked file from repo (OpenAI voices, baked at speed=0.92)
+  try {
+    const r = await fetch(`audio/${epId}/${idx}.mp3`, { cache: 'force-cache' });
+    if (r.ok) return { blob: await r.blob(), playbackRate: rate / 0.92, source: 'cache' };
+  } catch (e) { /* fall through to live API */ }
+
   const text = stripEm(line.en);
   if (provider === 'openai' && openaiKey) {
     const voice = line.role === 'host' ? 'onyx' : 'echo';
@@ -580,7 +523,7 @@ async function fetchLineAudio(line, rate) {
       body: JSON.stringify({ model: 'tts-1', input: text, voice, speed: rate })
     });
     if (!r.ok) throw new Error(`OpenAI ${r.status}: ${(await r.text()).slice(0, 120)}`);
-    return { blob: await r.blob(), playbackRate: 1 };
+    return { blob: await r.blob(), playbackRate: 1, source: 'openai' };
   }
   if (provider === 'elevenlabs' && elevenLabsKey) {
     const voiceId = line.role === 'host' ? ELEVEN_HOST : ELEVEN_YOU;
@@ -590,7 +533,7 @@ async function fetchLineAudio(line, rate) {
       body: JSON.stringify({ text, model_id: 'eleven_turbo_v2_5', voice_settings: { stability: 0.5, similarity_boost: 0.75, style: 0.3, use_speaker_boost: true } })
     });
     if (!r.ok) throw new Error(`ElevenLabs ${r.status}`);
-    return { blob: await r.blob(), playbackRate: rate / 0.92 };
+    return { blob: await r.blob(), playbackRate: rate / 0.92, source: 'elevenlabs' };
   }
   return null;
 }
@@ -621,36 +564,36 @@ async function playFull() {
   const lines = ep.lines;
   audioCache = {};
 
-  const useApi = (provider === 'openai' && openaiKey) || (provider === 'elevenlabs' && elevenLabsKey);
+  btn.classList.add('loading');
+  btn.innerHTML = '⋯';
+  let done = 0, failed = 0;
+  engineLabel.textContent = `⏳ 載入中 0/${lines.length}`;
+  engineLabel.style.color = 'var(--text-3)';
+  await Promise.all(lines.map((line, i) =>
+    fetchLineAudio(line, speechRate, currentEpId, i)
+      .then(cached => { if (cached) audioCache[i] = cached; })
+      .catch(e => { console.error(`Line ${i} prefetch failed:`, e); failed++; })
+      .finally(() => {
+        done++;
+        engineLabel.textContent = `⏳ 載入中 ${done}/${lines.length}` + (failed ? ` (${failed} 失敗)` : '');
+      })
+  ));
+  if (abortRequested) return;
+  btn.classList.remove('loading');
 
-  if (useApi) {
-    btn.classList.add('loading');
-    btn.innerHTML = '⋯';
-    let done = 0, failed = 0;
-    engineLabel.textContent = `⏳ 合成中 0/${lines.length}`;
-    engineLabel.style.color = 'var(--text-3)';
-    await Promise.all(lines.map((line, i) =>
-      fetchLineAudio(line, speechRate)
-        .then(cached => { if (cached) audioCache[i] = cached; })
-        .catch(e => { console.error(`Line ${i} prefetch failed:`, e); failed++; })
-        .finally(() => {
-          done++;
-          engineLabel.textContent = `⏳ 合成中 ${done}/${lines.length}` + (failed ? ` (${failed} 失敗)` : '');
-        })
-    ));
-    if (abortRequested) return;
-    btn.classList.remove('loading');
-    if (failed === lines.length) {
-      engineLabel.textContent = '❌ 全部合成失敗 · 改用內建';
-      engineLabel.style.color = 'var(--host)';
-    }
-  }
+  const sources = Object.values(audioCache).map(c => c.source);
+  const allCache = sources.length && sources.every(s => s === 'cache');
+  const anyCache = sources.some(s => s === 'cache');
+  const anyOpenAI = sources.some(s => s === 'openai');
+  const anyEleven = sources.some(s => s === 'elevenlabs');
 
   btn.innerHTML = '◼';
   btn.classList.add('playing');
   fill.classList.add('playing');
-  if (provider === 'openai' && Object.keys(audioCache).length) { engineLabel.textContent = '🎙️ OpenAI'; engineLabel.style.color = 'var(--you)'; }
-  else if (provider === 'elevenlabs' && Object.keys(audioCache).length) { engineLabel.textContent = '🎙️ ElevenLabs'; engineLabel.style.color = 'var(--you)'; }
+  if (allCache) { engineLabel.textContent = '💾 快取'; engineLabel.style.color = 'var(--you)'; }
+  else if (anyCache && (anyOpenAI || anyEleven)) { engineLabel.textContent = '💾 快取 + 🎙️ 即時'; engineLabel.style.color = 'var(--you)'; }
+  else if (anyOpenAI) { engineLabel.textContent = '🎙️ OpenAI'; engineLabel.style.color = 'var(--you)'; }
+  else if (anyEleven) { engineLabel.textContent = '🎙️ ElevenLabs'; engineLabel.style.color = 'var(--you)'; }
   else { engineLabel.textContent = '🔊 瀏覽器內建'; engineLabel.style.color = 'var(--text-3)'; }
 
   const estSec = lines.reduce((sum, l) => sum + (stripEm(l.en).length / 5) / (150 / 60) + 0.6, 0);

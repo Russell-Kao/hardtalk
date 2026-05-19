@@ -30,6 +30,35 @@ git push -u origin main
 # 4. 等 1-2 分鐘, 網址: https://[你的username].github.io/hardtalk/
 ```
 
+## 🔊 音檔快取（重要）
+
+為了不每次都重新呼叫 OpenAI API，音檔會**預先合成**好放在 `audio/{epId}/{idx}.mp3`。瀏覽器播放時優先抓這些 cache 檔。
+
+### 新增訪談後：合成音檔
+
+```powershell
+# PowerShell
+$env:OPENAI_API_KEY = "sk-..."
+node generate-audio.mjs
+```
+
+```bash
+# bash
+OPENAI_API_KEY=sk-... node generate-audio.mjs
+```
+
+- 需要 Node 18+
+- 已存在的 mp3 自動 skip（重跑很便宜）
+- 一集約 13 段 × 100KB ≈ 1.3MB
+- 成本：tts-1 每集 ~$0.025
+
+### 工具裡看到的播放標籤
+
+- 💾 **快取**：全部從 repo 抓，沒打 API（零成本）
+- 💾 快取 + 🎙️ 即時：部分還沒 bake，補 API
+- 🎙️ OpenAI / ElevenLabs：純即時合成
+- 🔊 瀏覽器內建：沒 key 也沒 cache 時的 fallback
+
 ## 📝 未來如何新增 / 更新訪談
 
 ### 給 Claude Code 看的指令
@@ -39,9 +68,10 @@ git push -u origin main
 這是新的訪談 JSON，請幫我:
 1. 把這段 JSON 物件加到 episodes 陣列最後
 2. 更新 lastUpdated 為今天
-3. git add episodes.json
-4. git commit -m "Add EP.06: [標題]"
-5. git push
+3. 跑 node generate-audio.mjs 把新音檔合成出來
+4. git add episodes.json audio/
+5. git commit -m "Add EP.06: [標題]"
+6. git push
 
 [貼 Claude 給的訪談 JSON]
 ```
