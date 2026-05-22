@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "lastUpdated": "2026-05-20",
+  "lastUpdated": "2026-05-22",
   "requiredClientVersion": "3",
   "episodes": [
     {
@@ -740,6 +740,376 @@
           "role": "host",
           "en": "Lin Zong — that is a sentence I will quote internally. <em>Let me speak with my director and come back to you</em>.",
           "tw": "林總——這句話我會在內部引用。**讓我跟我主管談談再回覆您**。"
+        }
+      ]
+    },
+    {
+      "id": "ep11",
+      "num": "EP.11",
+      "title": "Buy-Side: Three-Way Bidding War",
+      "tagline": "你跑三方比稿 · 大供應商 CEO 私下找你 · 他知道你在 play him · 你要保住 leverage 又不毀關係",
+      "tag": "🛒 採購談判 · 買方",
+      "lines": [
+        {
+          "role": "host",
+          "en": "Russell, I'll skip the small talk. <em>You've been running a three-way comparison for six weeks now</em>. Our quote is in. Their quote is in. <em>The third quote — we both know that's just leverage</em>. <em>Tell me honestly</em> — are we actually competing, or am I subsidizing your negotiation with the supplier you already chose?",
+          "tw": "Russell，我跳過寒暄。**你跑三方比稿跑了六週**。我們的報價進來了，他們的也進來了。**第三家——我們都心知肚明是 leverage**。**老實告訴我**——我們是真的在競爭，還是我只是在補貼你跟你早就選好的那家的議價？"
+        },
+        {
+          "role": "you",
+          "en": "<em>I respect the directness — I'll match it</em>. You're partially right. <em>One of the three is leverage</em>. But the choice between you and the other real bidder — <em>that one isn't decided</em>. And here's the part you should care about — <em>I told you that openly because I want a real conversation</em>, not the theatre most procurement runs. <em>The leverage isn't going away. The question is whether you respond to it or refuse to</em>.",
+          "tw": "**我尊重你的直接——我用同樣態度回應**。你部分說對了。**三家之中有一家是 leverage**。但你跟另一家真實競標者之間——**那個還沒決定**。你該在意的是——**我願意公開講這件事，是因為我想要一場真實的對話**，不是大多數採購在演的戲。**Leverage 不會消失。問題是你要 respond 還是 refuse**。"
+        },
+        {
+          "role": "host",
+          "en": "<em>That's a clever non-answer</em>. <em>Show me proof</em> the other bidder is real. Their company name, their proposal value, their decision timeline. <em>Otherwise I'm walking</em>. I don't negotiate against ghosts.",
+          "tw": "**這是聰明的不回答**。**給我看證據**——另一個競標者是真的。公司名、提案金額、決策時程。**否則我走**。我不跟鬼談判。"
+        },
+        {
+          "role": "you",
+          "en": "<em>I won't show you their proposal</em> — and you shouldn't ask. <em>If I leaked their numbers to you, you'd know I'd leak yours to them tomorrow</em>. <em>That's not the supplier you want me to be</em>. What I can tell you is this — <em>their proposal is within 8% of yours</em>. <em>That's the gap that decides this deal</em>. <em>The question is whether you close it</em>.",
+          "tw": "**我不會給你看他們的提案**——你也不該問。**如果我把他們的數字洩漏給你，你就知道我明天也會把你的洩漏給他們**。**那不是你希望我成為的那種供應商**。我能告訴你的是——**他們的提案在你 8% 之內**。**這就是決定這個案子的差距**。**問題是你要不要把它收掉**。"
+        },
+        {
+          "role": "host",
+          "en": "<em>Eight percent is a fairy tale</em>. Six months ago — <em>and I have the email</em> — you wrote to my predecessor calling us your '<em>preferred long-term partner</em>.' Now you're shopping us against newcomers. <em>What changed, Russell?</em>",
+          "tw": "**8% 是童話故事**。六個月前——**我有那封 email**——你寫信給我前任，稱我們為你的『**首選長期合作夥伴**』。現在你拿我們跟新進者比價。**什麼改變了，Russell？**"
+        },
+        {
+          "role": "you",
+          "en": "<em>Your predecessor changed</em>. He gave us preferential terms because he understood the value of multi-year relationships. <em>You priced us as if you owned us</em>. <em>That's what changed</em>. Preferred partnership is something you earn through behavior, <em>not something I owe you because of who used to sit in your chair</em>.",
+          "tw": "**你的前任改變了**。他給我們優先條件，因為他懂多年關係的價值。**你定價的方式像是你已經擁有我們了**。**這就是改變的地方**。首選合作關係是用行為賺來的，**不是因為以前那個位子上的人是誰，我就欠你的**。"
+        },
+        {
+          "role": "host",
+          "en": "<em>Strong words</em>. <em>My CEO and yours have known each other for fifteen years</em>. <em>One phone call from me, and this conversation moves above your head</em>. <em>Is that really how you want this to escalate?</em>",
+          "tw": "**用詞很重**。**我們 CEO 跟你們 CEO 認識十五年**。**我一通電話，這場對話就升到你頭上**。**這真的是你要的 escalation 方式嗎？**"
+        },
+        {
+          "role": "you",
+          "en": "<em>Make the call</em>. Genuinely — I think you should. <em>Because when our CEO asks me to brief him</em>, I'll show him the same comparison I'm showing you. <em>If your terms make sense, he'll back you. If they don't, he'll back me</em>. <em>That's how he runs the company</em>. The threat of escalation only works on people who are hiding something. <em>I'm not</em>.",
+          "tw": "**打吧**。我真心覺得你該打。**因為當我們 CEO 要我 brief 他時**，我會給他看跟給你看一樣的比較。**如果你的條件合理，他會支持你。如果不合理，他會支持我**。**他就是這樣管公司的**。Escalation 威脅只對藏東西的人有用。**我沒在藏**。"
+        },
+        {
+          "role": "host",
+          "en": "<em>Then let me be very clear</em>. <em>If we walk away tonight</em>, you lose <em>two years of qualification work</em> with our team. Your replacement supplier needs <em>twelve months minimum</em> to ramp. <em>Your production line stops or slows</em>. <em>That's not pressure — that's a fact</em>. Are you ready for that?",
+          "tw": "**那讓我說得非常清楚**。**如果我們今晚走人**，你失去**兩年的 qualification 工作**。你的替代供應商至少要**十二個月**才能 ramp。**你的產線會停或慢**。**這不是施壓——這是事實**。你準備好了嗎？"
+        },
+        {
+          "role": "you",
+          "en": "<em>I am</em>. <em>Not because I want it</em> — but because pretending I'm not gives you all the leverage. <em>The other bidder has already started parallel qualification</em>, six months ago. <em>I planned for your departure long before this call</em>. <em>That's not a threat. That's basic procurement</em>. <em>If you're the right partner, you'll come back to me with terms that reflect the competition</em>. <em>If you're not, this conversation was always going to end this way</em>.",
+          "tw": "**我準備好了**。**不是因為我想要這結果**——而是因為假裝沒準備好等於把所有 leverage 都交給你。**另一個競標者六個月前就開始平行 qualification 了**。**我在這通電話之前老早就為你的離開做準備了**。**那不是威脅。那是基本的採購規劃**。**如果你是對的合作夥伴，你會帶反映競爭的條件回來找我**。**如果你不是，這場對話本來就會這樣結束**。"
+        },
+        {
+          "role": "host",
+          "en": "Final question. <em>In one sentence</em> — why should I respect a buyer who plays vendors against each other like this?",
+          "tw": "最後一個問題。用一句話——我為什麼該尊重一個這樣玩供應商互鬥的買方？"
+        },
+        {
+          "role": "you",
+          "en": "<em>Because the buyer who doesn't push you ends up resenting you</em>.",
+          "tw": "因為不推你的買方，最後會偷偷恨你。"
+        },
+        {
+          "role": "host",
+          "en": "Russell — I'll call you back in 48 hours.",
+          "tw": "Russell——我 48 小時內回電給你。"
+        }
+      ]
+    },
+    {
+      "id": "ep12",
+      "num": "EP.12",
+      "title": "Sell-Side: When Legal Joins the Call",
+      "tagline": "你是賣方 · 客戶把法務長拉進電話會議 · 一句句問你合約裡的暗門 · 威脅要去仲裁",
+      "tag": "🛒 採購談判 · 賣方",
+      "lines": [
+        {
+          "role": "host",
+          "en": "Mr. Lin, thank you for joining. <em>I'm General Counsel for the customer</em>. <em>I'll be brief</em>. We've reviewed your master services agreement against the Q3 incident. <em>Section 12.3, your limitation of liability — it caps your exposure at the value of the last twelve months of fees</em>. <em>That's commercially unreasonable</em>. <em>How do you defend that?</em>",
+          "tw": "林先生，謝謝您加入。**我是客戶方法務長**。**我長話短說**。我們已經針對 Q3 事件審視了您的主服務合約。**第 12.3 條，你們的責任上限——把曝險限制在過去十二個月費用的金額**。**這在商業上不合理**。**您怎麼辯護這個？**"
+        },
+        {
+          "role": "you",
+          "en": "<em>I'll defend it directly</em>. <em>That cap is industry-standard for our category</em> — and it's the same cap your three other major suppliers carry. <em>I know because I've reviewed their contracts in past negotiations</em>. <em>What's actually 'commercially unreasonable' is the implied alternative</em> — uncapped liability would force every supplier to either price for catastrophic risk or refuse the work entirely. <em>Neither outcome serves you</em>.",
+          "tw": "**我直接辯護**。**這個 cap 是我們類別的業界標準**——而且跟你們其他三家主要供應商扛的 cap 相同。**我知道，因為我過去談判時審視過他們的合約**。**真正『商業上不合理』的，是隱含的替代方案**——無上限責任會強迫每個供應商要嘛把災難性風險 price in，要嘛拒絕承接工作。**這兩個結果對你都沒好處**。"
+        },
+        {
+          "role": "host",
+          "en": "<em>I'm not interested in what your competitors do</em>. <em>I'm interested in whether the cap survives scrutiny in our jurisdiction</em>. Under <em>Article 1135 of the French civil code</em>, a limitation of liability is unenforceable if it deprives the obligation of its essential substance. <em>Your cap arguably does that</em>. <em>Are you prepared to defend it in arbitration?</em>",
+          "tw": "**我對你競爭對手怎麼做沒興趣**。**我有興趣的是這個 cap 在我們司法管轄區能不能撐過審查**。根據**法國民法典第 1135 條**，責任限制如果剝奪了義務的本質實體，就是不可執行的。**您的 cap 有可能就是這樣**。**您準備好在仲裁中辯護它嗎？**"
+        },
+        {
+          "role": "you",
+          "en": "<em>I am</em> — and I'll tell you why I'm comfortable. <em>Article 1135 applies to obligations essentielles</em>. The cap doesn't eliminate our obligation — it scales remedies to a proportional measure. <em>French courts have consistently upheld similar caps</em> in commercial supply contracts between sophisticated parties. <em>Your client is a Fortune 500 buyer with its own legal team</em>. <em>The 'sophisticated parties' standard applies</em>. <em>You and I both know this</em>.",
+          "tw": "**我準備好了**——讓我告訴你為什麼我有信心。**第 1135 條適用於 obligations essentielles**。這個 cap 不會消滅我們的義務——它把救濟手段 scale 到比例性的標準。**法國法院在 sophisticated parties 之間的商業供應合約裡，一直支持類似的 caps**。**你的客戶是 Fortune 500 的買方，有自己的法務團隊**。**『sophisticated parties』標準適用**。**你跟我都心知肚明**。"
+        },
+        {
+          "role": "host",
+          "en": "<em>Let's move on</em>. <em>Indemnification</em>. Section 15. <em>Your indemnity protects us against third-party IP claims — but excludes 'consequential damages'</em>. <em>Define 'consequential' as you understand it</em>. <em>And be precise</em>.",
+          "tw": "**我們繼續**。**Indemnification 條款**。第 15 條。**你們的 indemnity 保護我們不受第三方 IP 索賠——但排除『間接損害』**。**請定義你理解的『間接』**。**精確點**。"
+        },
+        {
+          "role": "you",
+          "en": "<em>I'll be precise</em>. Consequential damages, in this contract, are <em>losses that do not flow directly and naturally from the breach</em>. <em>Lost profits, business interruption, reputational damage</em>. <em>Direct damages — replacement costs, remediation expenses, IP defense fees — are covered</em>. <em>That distinction isn't drafting trickery</em>. <em>It's the difference between supplier liability and supplier insolvency</em>. <em>You don't actually want a supplier that can't pay out when something goes wrong</em>.",
+          "tw": "**我會精確**。Consequential damages，在這個合約裡，是**不直接也不自然從違約流出的損失**。**Lost profits、business interruption、reputational damage**。**直接損害——替換成本、補救費用、IP 防禦律師費——是被涵蓋的**。**這個區分不是條文耍把戲**。**這是『供應商有責任』跟『供應商破產』的差別**。**你其實不想要一個出事時付不出錢的供應商**。"
+        },
+        {
+          "role": "host",
+          "en": "<em>Counsel for your competitor</em> — I won't name them — recently agreed to drop the consequential exclusion entirely in a similar deal. <em>Are you saying their drafting is reckless? Or are you holding out for terms they're willing to give?</em>",
+          "tw": "**你競爭對手的法律顧問**——我不點名——最近在一個類似交易裡同意完全拿掉 consequential 排除。**您是說他們的條文起草是輕率的？還是您堅持不給他們願意給的條件？**"
+        },
+        {
+          "role": "you",
+          "en": "<em>I don't know which competitor you mean — and I don't believe the claim without seeing the executed agreement</em>. <em>That's not skepticism of you</em>. <em>It's how counsel should respond to unverified claims of comparable deals</em>. <em>If you'd like to put that contract in front of me, I'll review it</em>. <em>If you can't — which is likely, because it would breach their NDA — then we should stop using it as a benchmark</em>.",
+          "tw": "**我不知道你指哪個競爭對手——而且沒看到實際簽署的合約我不相信這個說法**。**這不是對你的懷疑**。**這是法律顧問該如何回應『未經查證的可比交易主張』**。**如果你想把那份合約放在我面前，我會審閱**。**如果你不能——很可能不能，因為這會違反他們的 NDA——那我們就該停止把它當基準**。"
+        },
+        {
+          "role": "host",
+          "en": "<em>You're well-prepared</em>. <em>Let me try a different approach</em>. <em>Our client is considering arbitration over the Q3 incident</em>. <em>Damages they're claiming exceed your liability cap by a factor of four</em>. <em>What's your settlement position?</em>",
+          "tw": "**您準備充分**。**讓我換個角度**。**我的客戶正在考慮就 Q3 事件提交仲裁**。**他們主張的損害是你責任 cap 的四倍**。**您的和解立場是什麼？**"
+        },
+        {
+          "role": "you",
+          "en": "<em>I'm not negotiating settlement on this call</em>. <em>That's not because I'm avoiding it — it's because settlement negotiations require both sides to engage in good faith with full data, not under the pressure of a recorded call</em>. <em>What I will say is this</em>. <em>If arbitration proceeds, our cap holds, our exclusions hold, and the most likely outcome is recovery within the cap minus legal fees</em>. <em>That outcome serves nobody</em>. <em>A structured commercial conversation — without counsel posturing — does</em>.",
+          "tw": "**我不會在這通電話上談和解**。**這不是因為我在迴避——是因為和解協商需要雙方在 full data、good faith 下進行，不是在一通被錄音的電話壓力下**。**我會說的是這個**。**如果仲裁進行，我們的 cap 站得住、排除條款站得住，最可能的結果是 cap 內回收減掉律師費**。**這個結果對誰都沒好處**。**一場結構化的商業對話——沒有法律顧問擺姿態——才有**。"
+        },
+        {
+          "role": "host",
+          "en": "Final question. <em>In one sentence</em> — why shouldn't we file for arbitration tomorrow?",
+          "tw": "最後一個問題。用一句話——我們為什麼明天不該提交仲裁？"
+        },
+        {
+          "role": "you",
+          "en": "<em>Because the discovery process will hurt your client more than my cap ever will</em>.",
+          "tw": "因為 discovery 程序對你客戶造成的傷害，會比我的 cap 還大。"
+        },
+        {
+          "role": "host",
+          "en": "Mr. Lin — my client will be in touch directly.",
+          "tw": "林先生——我的客戶會直接跟您聯繫。"
+        }
+      ]
+    },
+    {
+      "id": "ep13",
+      "num": "EP.13",
+      "title": "Buy-Side: After Your Supplier's Quality Failure",
+      "tagline": "供應商出了一個 bad batch · 你產線停 3 天 · 他們 CEO 親自打給你滅火 · 你要 leverage 拿 better terms 但又不能太狠",
+      "tag": "🛒 採購談判 · 買方",
+      "lines": [
+        {
+          "role": "host",
+          "en": "Russell, <em>I'm calling personally because I owe you that</em>. The Q3 batch failure was <em>unacceptable</em>. <em>We've completed our root cause analysis</em>. I want to walk you through what we found and <em>make this right</em>. <em>Where would you like to start?</em>",
+          "tw": "Russell，**我親自打給你，是因為我欠你這個**。Q3 的批次失效**不能接受**。**我們完成了 root cause analysis**。我想跟你走過我們發現了什麼，然後**把這件事處理好**。**你想從哪裡開始？**"
+        },
+        {
+          "role": "you",
+          "en": "<em>I appreciate you calling personally — and I'll match the honesty</em>. <em>This isn't a conversation about credits or apologies</em>. <em>The batch cost us three days of line downtime, two missed customer commitments, and a quality incident report that's now in front of our board</em>. <em>You can't fix that with a goodwill discount</em>. <em>So let's not start there</em>. <em>Tell me what changed structurally — not what you regret</em>.",
+          "tw": "**我感謝你親自打來——我用同樣的誠實回應**。**這不是一場關於 credit 或道歉的對話**。**這個批次讓我們產線停三天、錯過兩個客戶承諾、還有一份品質事件報告現在攤在我們董事會面前**。**這些不是用善意折扣能修補的**。**所以我們別從那裡開始**。**告訴我什麼結構性地改變了——不是你後悔什麼**。"
+        },
+        {
+          "role": "host",
+          "en": "<em>That's fair</em>. The failure traced to <em>a process change at our Tier-2 supplier</em> — they switched coating chemistry without notifying us. <em>We've terminated that supplier and re-qualified two alternatives</em>. <em>We've also added a 30-day notification requirement for any process change down the supply chain</em>. <em>That fix is permanent</em>.",
+          "tw": "**公平**。失效追溯到**我們 Tier-2 供應商的製程變更**——他們換了塗層化學配方但沒通知我們。**我們已經終止那個供應商，重新 qualify 了兩個替代**。**我們也加入了供應鏈下游任何製程變更要 30 天前通知的要求**。**這個修復是永久性的**。"
+        },
+        {
+          "role": "you",
+          "en": "<em>The structural fix is good — and I'll note it</em>. But here's what concerns me. <em>You didn't know your Tier-2 changed coating chemistry</em>. <em>That means your incoming inspection didn't catch a process change</em>. <em>Which means the next surprise from a Tier-2 will also slip through</em> — until you change incoming protocols, not just supplier rosters. <em>What's the fix on inspection, not just suppliers?</em>",
+          "tw": "**結構性修復很好——我會 note 這個**。但讓我擔心的是這個。**你不知道你的 Tier-2 換了塗層化學**。**意思是你的進料檢驗沒抓到製程變更**。**意思是 Tier-2 下次的意外也會溜過去**——直到你改變進料協議，不只是換供應商名單。**檢驗的修復是什麼，不只是供應商？**"
+        },
+        {
+          "role": "host",
+          "en": "<em>You're pushing further than I expected</em>. We're investing in <em>SPC chemistry verification at intake</em> — automated FTIR analysis on every lot starting Q1. <em>That's a six-figure capex</em> we're absorbing. <em>I'd ask you to recognize the investment</em>.",
+          "tw": "**你比我預期推得更深**。我們正在投資**進料 SPC 化學驗證**——Q1 開始每批做自動化 FTIR 分析。**這是六位數的 capex**，我們自己吸收。**我希望你 recognize 這個投資**。"
+        },
+        {
+          "role": "you",
+          "en": "<em>I recognize it — and that's the right investment</em>. <em>But recognizing it isn't the same as paying premium for it</em>. <em>That capex protects every customer you have, not just me</em>. So <em>here's where we need to land</em>. The investment is your cost of staying in this business. <em>What I need is the contractual change</em> — explicit SLA on lot-level chemistry verification, with <em>liquidated damages tied to confirmed process deviations</em>. <em>Not your goodwill. My recourse</em>.",
+          "tw": "**我 recognize——這是對的投資**。**但 recognize 跟為它付溢價不是同一件事**。**那個 capex 保護你所有的客戶，不只是我**。所以**我們需要這樣 land**。這個投資是你留在這行的成本。**我需要的是合約變更**——明確的 lot-level 化學驗證 SLA，加上**綁定 confirmed 製程偏差的 liquidated damages**。**不是你的善意。我的 recourse**。"
+        },
+        {
+          "role": "host",
+          "en": "<em>Liquidated damages on chemistry deviation</em> — that's a hard ask. <em>Our legal team will push back hard</em>. <em>Can we discuss a credit structure instead?</em>",
+          "tw": "**化學偏差的 liquidated damages**——這要求很硬。**我們的法務團隊會反推得很用力**。**我們可以改談 credit 結構嗎？**"
+        },
+        {
+          "role": "you",
+          "en": "<em>Credit structures are what suppliers offer when they want apologies to be cheap</em>. <em>I'm not asking for credits — I'm asking for skin in the game</em>. <em>Liquidated damages, capped at three months of fees</em>, triggered by an independent third-party finding of chemistry deviation. <em>That's not punitive — that's symmetric</em>. You bear consequence when you fail. <em>I bear consequence when I forecast wrong</em>. <em>That's the relationship we should have had three years ago</em>.",
+          "tw": "**Credit 結構是供應商想讓道歉變便宜時提的**。**我不要 credit——我要 skin in the game**。**Liquidated damages，上限三個月費用**，由獨立第三方確認化學偏差時觸發。**這不是懲罰性的——這是對稱的**。你失敗時承擔後果。**我預估錯時承擔後果**。**這是我們三年前就該有的關係**。"
+        },
+        {
+          "role": "host",
+          "en": "<em>If I agree to this</em> — and that's a big if — <em>I need something in return</em>. <em>A three-year commitment extension</em> beyond our current renewal. <em>That gives my board the justification for the contractual exposure</em>.",
+          "tw": "**如果我同意這個**——這是個大 if——**我要回報**。**現有續約之外再延長三年承諾**。**那給我董事會合約曝險的正當性**。"
+        },
+        {
+          "role": "you",
+          "en": "<em>I won't extend the term until I see the liquidated damages clause executed and the chemistry verification in production</em>. <em>I won't lock myself into another three years with a supplier whose process I can't yet trust</em>. <em>What I'll commit to is this</em>. <em>If you deliver both — clause signed, verification live — within ninety days, I'll begin good-faith renewal discussions for an extension</em>. <em>That's how partnership rebuilds — proof first, then commitment</em>.",
+          "tw": "**我不會在看到 liquidated damages 條款執行、化學驗證上線之前延長合約期**。**我不會把自己鎖進另外三年——綁定一個製程我還不能信任的供應商**。**我會承諾的是這個**。**如果你 90 天內交付兩件事——條款簽好、驗證上線——我會開始 good faith 的延長協商**。**這就是合作關係怎麼重建——proof first, then commitment**。"
+        },
+        {
+          "role": "host",
+          "en": "Final question. <em>In one sentence</em> — why should I take this back to my board instead of letting you walk?",
+          "tw": "最後一個問題。用一句話——我為什麼該把這個帶回董事會，而不是讓你走？"
+        },
+        {
+          "role": "you",
+          "en": "<em>Because the customer who pushes you to be better is the one worth keeping</em>.",
+          "tw": "因為推你變得更好的客戶，才是值得留住的那個。"
+        },
+        {
+          "role": "host",
+          "en": "Russell — I'll have a counter-proposal in your inbox by Friday.",
+          "tw": "Russell——禮拜五前我會把 counter-proposal 送進你信箱。"
+        }
+      ]
+    },
+    {
+      "id": "ep14",
+      "num": "EP.14",
+      "title": "Sell-Side: New Buyer Wants to Revisit Everything",
+      "tagline": "你最大客戶剛被併購 · 新母公司 procurement VP 要重審所有合約 · 目標降 25% · 沒情感包袱",
+      "tag": "🛒 採購談判 · 賣方",
+      "lines": [
+        {
+          "role": "host",
+          "en": "Mr. Lin, <em>I'll keep this brief</em>. I'm the new procurement VP at the parent company. <em>We've completed the acquisition</em>. <em>Your contract with our subsidiary — eighteen months remaining, 3.2 million per year</em> — is one of forty-seven contracts under review. <em>Our group benchmark says your pricing is 25% above market</em>. <em>I need that gap closed before our next quarterly review</em>. <em>Are we aligned?</em>",
+          "tw": "林先生，**我長話短說**。我是母公司新上任的 procurement VP。**我們已經完成併購**。**您跟我們子公司的合約——剩下十八個月、一年 320 萬美金**——是 47 個審查中合約之一。**我們集團 benchmark 說您的定價比市場高 25%**。**我需要這個差距在下次季度檢討前收掉**。**我們對齊了嗎？**"
+        },
+        {
+          "role": "you",
+          "en": "<em>We're not aligned — and I'll explain why directly</em>. <em>Your group benchmark compares unit cost</em>. <em>The contract you inherited isn't a unit-cost arrangement</em>. <em>It's a service-integrated supply structure</em> built specifically around your subsidiary's operational footprint over four years. <em>If you re-benchmark on that basis — not on commodity unit cost — the gap is closer to 6%, not 25%</em>. <em>I'm happy to walk you through the math, but it requires you to look at the contract you actually have, not the one you assumed you have</em>.",
+          "tw": "**我們沒對齊——讓我直接解釋為什麼**。**您集團的 benchmark 比的是 unit cost**。**您繼承的這份合約不是 unit-cost arrangement**。**這是一個 service-integrated supply 結構**，過去四年特別圍繞您子公司的營運 footprint 建立的。**如果您用這個基礎重新 benchmark——不是用 commodity unit cost——差距接近 6%，不是 25%**。**我願意陪您走過這個數學，但這需要您看您實際有的合約，不是您假設您有的那份**。"
+        },
+        {
+          "role": "host",
+          "en": "<em>That's a sophisticated defense — but I've heard versions of it from every legacy supplier on this list</em>. <em>The reality is</em>, our group sources comparable services from Shenzhen at <em>significantly lower rates</em>. <em>I have the quotes</em>. <em>What I don't have is a reason to keep paying the legacy premium</em>.",
+          "tw": "**這是個 sophisticated 的辯護——但這份清單上每個 legacy 供應商我都聽過類似的版本**。**現實是**，我們集團從深圳採購同等服務的價格**明顯更低**。**我手上有報價**。**我沒有的是繼續付 legacy 溢價的理由**。"
+        },
+        {
+          "role": "you",
+          "en": "<em>Then you have the wrong comparison set</em>. <em>I know who you're quoting</em> — there are three credible options in Shenzhen for unit-cost services. <em>I'd consider them too, in your position</em>. But here's what those quotes don't capture. <em>Your subsidiary's operating model depends on services we deliver at their European sites, not just unit production</em>. <em>Switching unit supply is straightforward. Re-architecting integrated services across four countries — that's an 18-month project with a 30% probability of disruption</em>. <em>Did your group model include that?</em>",
+          "tw": "**那您比較的對象組是錯的**。**我知道您報的是誰**——深圳有三個可信的 unit-cost 服務選項。**換我在您位子上，我也會考慮**。但這些報價沒抓到的是這個。**您子公司的營運模式靠的是我們在他們歐洲據點交付的服務，不只是 unit production**。**換 unit supply 很直接。在四個國家重新架構 integrated services——這是 18 個月的專案，30% 中斷機率**。**您集團的模型有把這個算進去嗎？**"
+        },
+        {
+          "role": "host",
+          "en": "<em>I'm not going to debate transition models with you</em>. <em>Either you bring your pricing into our group framework, or we begin transition planning</em>. <em>That's the choice</em>. <em>You have 30 days</em>. <em>What's your response?</em>",
+          "tw": "**我不會跟您辯論 transition 模型**。**要嘛您把定價納入我們集團 framework，要嘛我們開始 transition 規劃**。**就這兩個選擇**。**您有 30 天**。**您的回應？**"
+        },
+        {
+          "role": "you",
+          "en": "<em>My response is a different proposal — and I'd ask you to actually consider it</em>. <em>Instead of 25% off everything</em>, I'll restructure the contract into two layers. <em>Layer one — unit supply — I'll match your group benchmark within 5%</em>. <em>Layer two — integrated services — priced separately, transparent, you can scope them in or out as your group strategy clarifies</em>. <em>You get the headline number that satisfies your benchmark</em>. <em>I keep the margin on services that actually justifies the work</em>. <em>Your CFO sees a 22% reduction on paper. I keep a sustainable business</em>.",
+          "tw": "**我的回應是另一個提議——我請您認真考慮**。**不是全部砍 25%**，我把合約重新結構成兩層。**第一層——unit supply——我把您集團 benchmark match 到 5% 之內**。**第二層——integrated services——分開定價、透明，您可以隨集團策略釐清把它 scope in 或 out**。**您拿到滿足您 benchmark 的 headline 數字**。**我保住服務的 margin，這個 margin 才反映實際工作的價值**。**您 CFO 在紙上看到 22% 的降幅。我保住一個可持續的業務**。"
+        },
+        {
+          "role": "host",
+          "en": "<em>That's clever — but it looks like financial engineering</em>. <em>How do I justify that structure to my group CEO when he sees the 'services' line and asks what it actually is?</em>",
+          "tw": "**這很巧妙——但看起來像 financial engineering**。**當我集團 CEO 看到『服務』那行問我這到底是什麼時，我怎麼證明這個結構的正當性？**"
+        },
+        {
+          "role": "you",
+          "en": "<em>You justify it the way every CFO justifies value-based pricing</em>. <em>The services line is the operational risk you'd otherwise carry</em>. <em>Cost of an internal team to do this work? Roughly 1.4 million per year, fully loaded. My services layer prices in at 800K. That's a 600K saving versus insourcing</em>. <em>Your group CEO doesn't want to insource — your operating model doesn't allow it</em>. <em>So the services layer isn't engineering. It's an honest line item that competes against the alternative he'd actually have to fund</em>.",
+          "tw": "**您用每個 CFO 證明 value-based pricing 的方式來證明**。**服務那行是您原本要扛的營運風險**。**內部團隊做這些工作的成本？fully loaded 大概一年 140 萬美金。我的服務層定價 80 萬美金。比 insourcing 省 60 萬**。**您集團 CEO 不會想 insource——您的營運模式不允許**。**所以服務那層不是 engineering。它是一個誠實的 line item，跟他實際需要 fund 的替代方案在競爭**。"
+        },
+        {
+          "role": "host",
+          "en": "<em>I'll take that to my CFO. But I need one more concession</em>. <em>Annual price reductions of 3% baked in for the remainder of the contract</em>. <em>Otherwise we keep moving toward transition</em>.",
+          "tw": "**我會把這個帶給我的 CFO。但我還需要一個讓步**。**合約剩餘期間每年內建 3% 降幅**。**否則我們繼續往 transition 走**。"
+        },
+        {
+          "role": "you",
+          "en": "<em>3% annual reduction works — with one structural change</em>. <em>The reduction applies only to the unit-supply layer, not services</em>. <em>Services scale with your demand, so a flat percentage cut there doesn't reflect the underlying economics</em>. <em>You get a predictable annual unit reduction that shows up in your benchmark. I keep the services structure intact</em>. <em>Both sides get the optics and the math we each need internally</em>.",
+          "tw": "**3% 年降幅可以——加一個結構性改變**。**降幅只適用於 unit-supply 那層，不適用服務層**。**服務層隨您的需求 scale，所以那邊一個固定百分比的降幅不反映底層經濟**。**您拿到一個會出現在您 benchmark 的、可預測的年度 unit 降幅。我保住服務結構不變**。**雙方各自拿到內部需要的 optics 跟數學**。"
+        },
+        {
+          "role": "host",
+          "en": "Final question. <em>In one sentence</em> — why should I tell my group CEO to keep you when Shenzhen looks cheaper on paper?",
+          "tw": "最後一個問題。用一句話——當深圳在紙上看起來更便宜，我為什麼該跟我的集團 CEO 說留下您？"
+        },
+        {
+          "role": "you",
+          "en": "<em>Because the supplier you replace is always cheaper than the disruption you forgot to price</em>.",
+          "tw": "因為您換掉的供應商，永遠比您沒算進去的中斷代價便宜。"
+        },
+        {
+          "role": "host",
+          "en": "Mr. Lin — I'll come back to you in a week.",
+          "tw": "林先生——一週內回覆您。"
+        }
+      ]
+    },
+    {
+      "id": "ep15",
+      "num": "EP.15",
+      "title": "Buy-Side: When Your Critical Supplier Files for Bankruptcy",
+      "tagline": "你最關鍵供應商剛申請破產 · CEO 求你 fund 救公司 · 你要在『救他 / 拿 IP 走人』之間冷靜決策",
+      "tag": "🛒 採購談判 · 買方",
+      "lines": [
+        {
+          "role": "host",
+          "en": "Russell, <em>I'll be direct because I have to be</em>. We filed for protection yesterday. <em>You know the situation</em>. <em>We supply 60% of your critical assembly</em>. <em>You need us alive</em>. <em>I'm not asking for charity — I'm asking for a bridge financing arrangement that keeps production running and gives us 90 days to restructure</em>. <em>Can we make this work?</em>",
+          "tw": "Russell，**我必須直接，因為我沒得選**。我們昨天申請了破產保護。**你知道情況**。**我們供應你 60% 的關鍵 assembly**。**你需要我們活下來**。**我不是求慈善——我是求一個 bridge financing 安排，讓生產繼續、給我們 90 天重整**。**我們能 make this work 嗎？**"
+        },
+        {
+          "role": "you",
+          "en": "<em>I'm going to answer carefully, because what we decide here affects both companies for years</em>. <em>You're right that we depend on your output</em>. <em>You're also right that a disorderly collapse damages us</em>. <em>But 'bridge financing' is a phrase I need you to define specifically — because the version where I send you money has a different name in our internal review, and it's not 'bridge'</em>. <em>It's 'equity investment in a distressed supplier'</em>. <em>What exactly are you proposing?</em>",
+          "tw": "**我會小心回答，因為我們現在決定的事影響兩家公司很多年**。**你說對我們倚賴你的產出**。**你也說對失序崩盤對我們也是傷害**。**但『bridge financing』這個詞我需要你具體定義——因為『我匯錢給你』這個版本在我們內部審查叫另一個名字，不是 bridge**。**是『對 distressed supplier 的股權投資』**。**你到底在提議什麼？**"
+        },
+        {
+          "role": "host",
+          "en": "<em>I'm proposing</em> — <em>you advance six months of payments now</em>, against our delivery schedule. <em>In exchange, you get exclusive supply for two years post-restructuring at current pricing locked</em>. <em>And we give you a security interest in our IP and tooling</em>. <em>You become senior creditor</em>. <em>You protect your line, and you get terms no future supplier will match</em>.",
+          "tw": "**我提議**——**你現在預付六個月的款項**，對應我們的交貨排程。**作為交換，重整後你拿到兩年獨家供應、現價鎖定**。**我們給你 IP 跟 tooling 的擔保權益**。**你變成 senior creditor**。**你保護你的產線，拿到未來任何供應商都不會給你的條件**。"
+        },
+        {
+          "role": "you",
+          "en": "<em>Let me play this back to make sure I understand</em>. <em>You want me to wire you a major prepayment</em>, become an unsecured-becoming-secured creditor in a bankruptcy estate I don't control, <em>in exchange for terms that depend entirely on you successfully restructuring</em>. <em>If the restructuring fails — which happens to about 60% of Chapter 11 filings of your size — I'm a creditor in a liquidation, holding tooling I can't operate</em>. <em>That's not a bridge. That's a bet I'm being asked to make blind, on your timeline, with my cash</em>.",
+          "tw": "**讓我把這個 play back 一下確認我理解**。**你要我匯給你一筆重大預付款**，變成一個我控制不了的 bankruptcy estate 裡『從無擔保變成有擔保』的 creditor，**交換的條件完全取決於你成功重整**。**如果重整失敗——你這個規模的 Chapter 11 大概 60% 是這結果——我變成 liquidation 裡的 creditor，手上拿著我不能操作的 tooling**。**這不是 bridge。這是要我蒙著眼睛、按你的時程、用我的現金，下一場賭注**。"
+        },
+        {
+          "role": "host",
+          "en": "<em>You're not blind</em> — <em>I'm giving you full visibility</em>. <em>Our restructuring plan is filed</em>. Our debtor-in-possession financing is secured for working capital. <em>Your prepayment funds the customer side</em>, not the lenders. <em>And the IP — our coating process — is the asset your competitor would pay seven figures for if we sold it tomorrow</em>. <em>You're protecting your access to it</em>.",
+          "tw": "**你不是蒙著眼**——**我給你完整可視性**。**我們的重整計畫已經提交**。我們 DIP financing 已經 secured，作為 working capital。**你的預付是 fund 客戶端**，不是 lenders。**還有 IP——我們的塗層製程——如果我們明天賣，你的競爭對手會付七位數**。**你是在保護你對它的取得權**。"
+        },
+        {
+          "role": "you",
+          "en": "<em>The IP point is real — and that's the only reason I'm still in this conversation</em>. <em>But let's structure this honestly</em>. <em>I'm not advancing payments</em>. <em>What I'll do is this</em>. <em>I'll buy your coating process IP outright, at fair market value, with a perpetual exclusive license back to you for non-competing applications</em>. <em>That gives you immediate cash for the restructuring</em>. <em>It gives me ownership of the asset that matters to my line</em>. <em>And it doesn't tie my fate to your bankruptcy outcome</em>.",
+          "tw": "**IP 那點是真的——這是我還在這場對話的唯一原因**。**但我們誠實地 structure 這個**。**我不會預付款**。**我會做的是這個**。**我用公允市價把你的塗層製程 IP 整個買下來，附一個給你的、針對非競爭應用的永久獨家授權**。**這給你立刻可以用於重整的現金**。**這給我對我產線重要的那個資產的所有權**。**這也不把我的命運綁在你的破產結果上**。"
+        },
+        {
+          "role": "host",
+          "en": "<em>That kills us</em>. Without our IP we have no restructuring story to tell the bankruptcy court. <em>The creditors won't approve a plan that strips the only asset</em>. <em>You're not buying the IP — you're buying our death</em>.",
+          "tw": "**這會殺死我們**。沒有我們的 IP 我們沒有重整故事可以跟破產法院講。**Creditors 不會通過一個剝掉唯一資產的計畫**。**你不是在買 IP——你是在買我們的死亡**。"
+        },
+        {
+          "role": "you",
+          "en": "<em>I hear that — and I won't pretend otherwise</em>. <em>But the alternative you're proposing has me funding your survival on terms only you control</em>. <em>If your restructuring fails, I lose both the cash and the IP — because the bankruptcy estate captures it</em>. <em>If you want me as a partner in your survival, I need to be a partner in your decisions</em>. <em>So here's the counter</em>. <em>I'll provide bridge financing — but only with a seat on your restructuring oversight committee, veto rights over any strategic asset sale, and conversion rights to equity if you miss restructuring milestones</em>. <em>That's not friendly. But it's the only structure where I can justify the exposure</em>.",
+          "tw": "**我聽到了——我也不會裝作不在意**。**但你提的替代方案是要我用『只有你能控制的條件』fund 你的存活**。**如果你重整失敗，我兩邊都失去——現金跟 IP 都被破產 estate 拿走**。**如果你要我當你存活的合作夥伴，我必須是你決策的合作夥伴**。**所以這是 counter**。**我提供 bridge financing——但要在你重整 oversight committee 有席次、對任何策略性資產出售有 veto 權、如果你錯過重整里程碑我有轉換成股權的權利**。**這不友善。但這是我唯一能 justify 這個曝險的結構**。"
+        },
+        {
+          "role": "host",
+          "en": "<em>The court won't approve a buyer with that level of control over a restructuring debtor</em>. <em>It's effectively a change-of-control</em>. <em>You're asking me to hand over my company in a different package</em>.",
+          "tw": "**法院不會批准一個對重整 debtor 有這麼大控制權的買家**。**這實質上是 change-of-control**。**你在要求我用另一個包裝把公司交出去**。"
+        },
+        {
+          "role": "you",
+          "en": "<em>I'm asking you to recognize that your situation has already handed over your company — to the court, to the creditors, to the bankruptcy process</em>. <em>The question isn't whether someone takes control. It's who, and on what terms</em>. <em>If I take the controls you're describing, you have a fighting chance to restructure with a customer-aligned senior partner</em>. <em>If you find someone friendlier, they're either taking less risk or they're not real</em>. <em>I'd rather be the difficult partner who saves you than the easy one who pretends to</em>.",
+          "tw": "**我是要求你 recognize——你的處境已經把公司交出去了——交給法院、交給 creditors、交給破產程序**。**問題不是有沒有人接走控制權。是誰、用什麼條件**。**如果我接走你描述的這些 controls，你有機會用一個 customer-aligned 的 senior partner 來重整**。**如果你找一個更友善的人，他們要嘛承擔更少風險、要嘛不是真的**。**我寧願當救你的那個難搞合夥人，也不要當假裝救你的那個輕鬆合夥人**。"
+        },
+        {
+          "role": "host",
+          "en": "Final question. <em>In one sentence</em> — why should my board accept these terms instead of finding another rescue?",
+          "tw": "最後一個問題。用一句話——我董事會為什麼該接受這些條件，而不是找另一個救援？"
+        },
+        {
+          "role": "you",
+          "en": "<em>Because the rescuer who asks for nothing is the one who's not actually rescuing</em>.",
+          "tw": "因為什麼都不要求的救援者，才是真的沒在救你的那個。"
+        },
+        {
+          "role": "host",
+          "en": "Russell — I'll call my board tonight. We'll come back to you in 48 hours.",
+          "tw": "Russell——我今晚打給我董事會。48 小時內回覆你。"
         }
       ]
     }
