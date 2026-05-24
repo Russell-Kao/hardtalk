@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "lastUpdated": "2026-05-22",
+  "lastUpdated": "2026-05-24",
   "requiredClientVersion": "3",
   "episodes": [
     {
@@ -1110,6 +1110,835 @@
           "role": "host",
           "en": "Russell — I'll call my board tonight. We'll come back to you in 48 hours.",
           "tw": "Russell——我今晚打給我董事會。48 小時內回覆你。"
+        }
+      ]
+    },
+    {
+      "id": "ep16",
+      "num": "EP.16",
+      "title": "Why I Didn't Push Harder",
+      "tagline": "你剛簽完德國採購合約 · CFO 質疑你給太多 · 你要為自己的判斷辯護",
+      "tag": "💼 內部對齊 · 對 CFO",
+      "lines": [
+        {
+          "role": "host",
+          "en": "Russell, <em>walk me through</em> this — and I'll be blunt because we're short on time. You gave the Germans 5% on payment terms, and you only walked away with 2 years instead of 3. <em>That looks like a bad trade</em> from where I'm sitting. <em>Be specific</em> — why?",
+          "tw": "Russell，**幫我說明一下**——我直接講，因為時間不多。你給德國人付款條件讓了 5%，最後只拿到兩年不是三年。**從我這邊看起來這筆交易很糟**。**講具體一點**——為什麼？"
+        },
+        {
+          "role": "you",
+          "en": "<em>Let me be direct</em> — I know it looks bad on paper, and I'd push back on it myself if I were sitting in your chair. But <em>here's the thing</em> about a three-year lock-in: it gives the supplier zero reason to keep earning our business. With two years, they have to compete for the renewal every cycle. So when you say I gave up the third year, <em>I'd reframe it</em> — I picked leverage over lock-in. That's worth more than the optics.",
+          "tw": "**我直接說**——我知道紙上看起來很糟，如果我坐你的位子，我也會反推。但**重點是**三年 lock-in 這件事：它讓供應商完全沒理由繼續贏我們的生意。兩年的話，他們每個 cycle 都要再競爭一次續約。所以當你說我『放棄』了第三年——**我會重新 frame 這件事**：我選的是 leverage，不是 lock-in。這個比表面好看更值得。"
+        },
+        {
+          "role": "host",
+          "en": "<em>Okay, I hear you</em>. But my board doesn't sit through three-cycle thinking. They see two years and they ask why we couldn't get three. <em>Walk me through</em> what I'm supposed to tell them.",
+          "tw": "**好，我聽到了**。但我董事會不會花時間想三個 cycle 那麼遠。他們看到兩年就問為什麼不是三年。**幫我說明一下**我該怎麼跟他們講。"
+        },
+        {
+          "role": "you",
+          "en": "Tell them this — and use these exact words if it helps. Three years isn't a win, three years is a cage. Two years gives us the right to leave, the right to renegotiate, the right to walk if the market shifts. <em>That's not us giving up the third year</em> — that's us refusing to give up our optionality. Your board lives in optionality every single day. They'll get it.",
+          "tw": "跟他們這樣講——你想的話直接用我這個說法。三年不是贏，三年是個牢籠。兩年讓我們有權利離開、有權利重談、有權利在市場變動時走人。**這不是我們放棄第三年**——這是我們不放棄 optionality。你董事會每天活在 optionality 裡。他們會懂的。"
+        },
+        {
+          "role": "host",
+          "en": "<em>Fair point</em>, that framing actually helps. Now the 5% on payment terms — <em>show me</em> the math, because that's roughly 200K a year sitting on the table. Where does it come back?",
+          "tw": "**有道理**，這個說法確實有幫助。再來，付款條件那 5%——**算給我看**，那一年大概 20 萬美金擺在桌上。從哪裡賺回來？"
+        },
+        {
+          "role": "you",
+          "en": "<em>Here's the math</em>, and follow with me because it's not obvious on the first pass. If I'd held the 5%, they'd have loaded it straight into next year's unit price — that's just how suppliers recover. We'd be paying that 200K plus the margin they build in to clawback. So we're not actually saving 200K by holding firm; we're paying closer to 250K with no flexibility. By giving 5% on terms now, I bought us 250K of room in the unit-price negotiation next cycle. <em>Same money. Better deal</em>.",
+          "tw": "**算給你看**，跟我一起想，因為第一眼看不出來。如果我守住那 5%，他們會把它直接塞進明年的 unit price——供應商就是這樣 recover 的。我們會付那 20 萬，加上他們為了補回來內建的 margin。所以我們守住其實沒省 20 萬，反而是付接近 25 萬、而且沒彈性。在 terms 上讓 5%，等於買到下個 cycle unit-price 談判的 25 萬空間。**一樣的錢，更好的 deal**。"
+        },
+        {
+          "role": "host",
+          "en": "<em>I hear you</em>, the logic holds. But the board reads line items, they don't read math. <em>Walk me through</em> how they see this in the actual quarterly memo.",
+          "tw": "**我聽到了**，邏輯站得住。但董事會看的是 line items，不是數學。**幫我說明一下**他們在實際季度 memo 看到這個的時候會怎麼想。"
+        },
+        {
+          "role": "you",
+          "en": "<em>Fair point</em>, that's actually the easier problem. <em>Here's what I can do</em> — I'll write you a one-page memo that reframes the 5% concession as a 'flexibility premium' rather than a cost. Same math, completely different label. <em>Your board will read it like insurance</em> — because that's what it is. You're buying the right to negotiate harder next time. CFOs sign off on insurance every quarter without blinking. Give them that frame and the line item disappears.",
+          "tw": "**有道理**，這其實是比較簡單的問題。**我可以做的是**——我給你寫一頁 memo，把那 5% 重新包裝成『flexibility premium』而不是成本。一模一樣的數學，完全不同的標籤。**你董事會會把它當保險來讀**——因為它本來就是。你買的是下次更硬的談判權。CFO 每季都在簽保險、眼睛眨都不眨。給他們這個 frame，line item 就消失了。"
+        },
+        {
+          "role": "host",
+          "en": "<em>That works</em>. Send me the memo by Friday. One more thing — the SLA. <em>Did you push hard</em> on quality, or did that get traded away too?",
+          "tw": "**這個可以**。週五前 memo 寄給我。還有一件事——SLA。**你品質有沒有押夠硬**，還是這個也被讓掉了？"
+        },
+        {
+          "role": "you",
+          "en": "<em>That's actually where I pushed hardest</em>. I got 0.1% field failure rate written in as the contractual SLA, with a sliding scale: anything under 0.1% is on us, between 0.1 and 0.3 we share costs, above 0.3 we have full termination rights with no penalty. <em>That's skin in the game</em>, both sides bearing the same risk. The 5% on terms was the cost of getting them to that SLA. <em>That trade I'd make every single time</em>.",
+          "tw": "**這正是我推最硬的地方**。我把 0.1% field failure rate 寫進合約 SLA，加分級條款：低於 0.1% 我們扛、0.1 到 0.3 之間我們分攤、超過 0.3 我們無條件解約。**這就是 skin in the game**，雙方扛同樣的風險。Terms 上讓的 5% 就是換到這個 SLA 的代價。**這個交易我每一次都會做**。"
+        },
+        {
+          "role": "host",
+          "en": "Final question. <em>In one sentence</em> — why should I defend this contract to my board?",
+          "tw": "最後一題。**用一句話**——我為什麼該為這份合約跟董事會辯護？"
+        },
+        {
+          "role": "you",
+          "en": "<em>Soft today. Strong tomorrow</em>.",
+          "tw": "今天讓一點。明天硬一點。"
+        },
+        {
+          "role": "host",
+          "en": "Send me the memo Friday. I'll handle the board.",
+          "tw": "週五 memo 給我。董事會我來處理。"
+        }
+      ]
+    },
+    {
+      "id": "ep17",
+      "num": "EP.17",
+      "title": "Why I'm Raising Prices",
+      "tagline": "你決定下季漲價 8% · 銷售總監說會丟 3 個大客戶 · 你要 hold the line",
+      "tag": "💼 內部對齊 · 對下屬",
+      "lines": [
+        {
+          "role": "host",
+          "en": "Russell, <em>I'll be honest with you</em>. The 8% price increase — my team is freaking out. They're convinced we're going to lose at least 3 customers, and they're not the small ones. <em>Walk me through</em> why this is the right call, because right now I don't have anything to tell them.",
+          "tw": "Russell，**我跟你說實話**。漲價 8% 這件事——我團隊在抓狂。他們認定我們至少會丟 3 個客戶，而且不是小的。**幫我說明一下**為什麼這是對的決定，因為我現在沒有東西可以跟他們講。"
+        },
+        {
+          "role": "you",
+          "en": "<em>I hear you</em>, and <em>I get it</em> — losing customers is the wrong outcome, full stop. So let me explain why we're doing this anyway. <em>Here's the thing</em>: if we don't raise prices, we don't lose customers — we lose margin. And margin loss is slower, quieter, and a lot more dangerous than three loud customers walking. <em>Pick your pain</em>. Both options hurt, but only one of them kills us.",
+          "tw": "**我懂**，**我也理解**——丟客戶就是錯的結果，沒得辯。所以讓我解釋為什麼我們還是要做。**重點是這個**：如果我們不漲價，我們不會丟客戶——我們會丟 margin。Margin 流失更慢、更安靜、比 3 個吵的客戶離開危險得多。**選哪一種痛**。兩個都痛，但只有一個會殺掉我們。"
+        },
+        {
+          "role": "host",
+          "en": "<em>Fair point</em>, but my team isn't reading P&L statements. <em>Show me</em> the data in a way I can put in front of them tomorrow morning. Why now? Why 8%? Why not 5%?",
+          "tw": "**有道理**，但我團隊不會去看損益表。**給我看數據**——可以明天早上直接放在他們面前的那種。為什麼是現在？為什麼是 8%？為什麼不是 5%？"
+        },
+        {
+          "role": "you",
+          "en": "<em>Walk me through</em> the last 12 months with me. Raw materials up 14%, labor up 9%, logistics up 6%. We absorbed all of it because we didn't want to spook the market. <em>Margin dropped from 28 to 22</em>, which means we're financing our customers' inflation out of our own balance sheet. 8% gets us back to 26, not 28 — we're still absorbing some of it. <em>That's not greed. That's survival</em>, and it's already late.",
+          "tw": "**我們一起看**過去 12 個月。原料漲 14%、人力漲 9%、物流漲 6%。我們全部自己吸收，因為不想嚇到市場。**Margin 從 28 掉到 22**，等於我們在用自己的資產負債表替客戶的通膨買單。漲 8% 把我們拉回 26、不是 28——我們還是吸收掉一部分。**這不是貪。這是活下來**，而且已經晚了。"
+        },
+        {
+          "role": "host",
+          "en": "<em>That makes sense</em> when you lay it out like that. But my team can't go to a customer and say 'we need to survive.' <em>They need a story</em> the customer can accept without losing face on their side.",
+          "tw": "**這樣攤開來就說得通**。但我團隊不能跟客戶說『我們要活下來』。**他們需要一個故事**——客戶可以接受、自己也不會丟臉的那種。"
+        },
+        {
+          "role": "you",
+          "en": "<em>Here's the story</em>, and it's true so they don't have to fake it. Last year we invested 6 million in quality systems — full traceability, lot-level testing, ISO 9001 expansion. Their compliance teams asked for it. Now we're passing through a portion of the cost — not all of it, just 8%. <em>We absorbed the rest</em>. That's the story. Frame it as 'investments their auditors required us to make,' and the customer can't push back without looking like they want us to skip quality.",
+          "tw": "**故事是這個**，而且是真的——他們不用編。我們去年投資 600 萬在品質系統：全程追溯、批次測試、ISO 9001 擴展。是他們合規團隊要求的。現在我們把一部分成本傳遞出去——不是全部，只有 8%。**剩下的我們自己吸收**。這就是故事。包裝成『他們稽核要求我們做的投資』，客戶沒辦法反推、否則看起來像在叫我們省品質。"
+        },
+        {
+          "role": "host",
+          "en": "<em>I hear you</em>, that frame is solid. But the 3 customers I'm worried about — they always push back on price, every cycle. <em>What's the plan</em> when they say no?",
+          "tw": "**我聽到了**，這個 frame 很穩。但我擔心的那 3 個——他們每次都在價格上反推、每個 cycle 都這樣。**他們說不的時候計畫是什麼？**"
+        },
+        {
+          "role": "you",
+          "en": "<em>Here's what we do</em>, and this is the part your team will actually like. For those 3 specifically — give them 12 months' notice instead of the standard 6. Same increase, but double the runway. They feel respected, they have time to plan, they can frame it as 'their negotiation win.' <em>And we still hold the line on price</em>. The increase happens. They just get to feel like they shaped the timing.",
+          "tw": "**我們這樣做**，這部分你團隊會喜歡。那 3 個特別——給他們 12 個月通知、不是標準的 6 個月。一樣的漲幅，但 runway 加倍。他們覺得被尊重、有時間規劃、可以包裝成『他們談下來的』。**而我們還是在價格上 hold the line**。漲還是漲，他們只是覺得自己 shape 了時程。"
+        },
+        {
+          "role": "host",
+          "en": "<em>That's smart</em>. One more question — and this is what's actually keeping me up at night. <em>What if</em> they still walk after the 12 months? Then we lose the customer AND the year.",
+          "tw": "**這個聰明**。再一個問題——這才是真正讓我睡不著的事。**如果**他們 12 個月後還是走人？我們就客戶跟那一年都丟掉了。"
+        },
+        {
+          "role": "you",
+          "en": "<em>Then they walk</em>, and I won't beg, and neither should you. <em>Here's the truth</em>: if a customer leaves us over 8% after a 12-month notice period and 4 years of partnership, they were already halfway out the door. We were just the cheap option keeping them comfortable. <em>Better to lose them now</em>, replace them with someone who values what we deliver, than chase them down for another year and lose them anyway with worse margin.",
+          "tw": "**那就走吧**，我不會求、你也不該求。**事實是這樣**：一個客戶在 12 個月通知後、合作四年之後、為了 8% 離開，他們早就走了一半。我們只是讓他們覺得舒服的便宜選項而已。**現在丟掉**，換一個真的重視我們交付的客戶，比追他們一年、最後還是丟掉、margin 還更差好得多。"
+        },
+        {
+          "role": "host",
+          "en": "Final question. <em>In one sentence</em> — what do I tell the team tomorrow morning?",
+          "tw": "最後一題。**用一句話**——我明天早上跟團隊怎麼說？"
+        },
+        {
+          "role": "you",
+          "en": "<em>Hold the line. Lose the loud ones</em>.",
+          "tw": "守住價格。讓吵的人走。"
+        },
+        {
+          "role": "host",
+          "en": "Got it. Briefing tomorrow at 9. Wish me luck.",
+          "tw": "懂了。明早九點 brief。祝我好運。"
+        }
+      ]
+    },
+    {
+      "id": "ep18",
+      "num": "EP.18",
+      "title": "Going Over Their Head",
+      "tagline": "客戶採購卡你 9 個月 · 你 escalate 到他們 CEO · 對方不爽你 over-reach",
+      "tag": "🛒 採購談判 · 跨層級",
+      "lines": [
+        {
+          "role": "host",
+          "en": "Russell, <em>I'll be honest with you</em>. I don't take supplier meetings — it's a policy thing, not personal. You went over my procurement team to get this 30 minutes on my calendar, and I'll be frank, my team is not happy about it. <em>Walk me through</em> why I should listen instead of just sending you back down the chain.",
+          "tw": "Russell，**我跟你說實話**。我不見供應商——這是政策，不是針對個人。你跳過我採購團隊把這 30 分鐘約上我行事曆，老實說，我團隊不爽。**幫我說明一下**我為什麼該聽你講，而不是直接把你送回去。"
+        },
+        {
+          "role": "you",
+          "en": "<em>Let me be direct</em>, and I want to address what you just said first. <em>I respect your procurement team</em>, and I know going over them has costs — for me, not just for them. I wouldn't do it for a normal deal. But here's the situation: for 9 months we've been stuck on a contract that's small for you and existential for me. <em>I'm not here to complain about your team</em>. <em>I'm here to ask you one question</em>, and you're the only person who can answer it.",
+          "tw": "**我直接說**，我先回應你剛剛講的。**我尊重你採購團隊**，跳過他們是有代價的——對我、不只對他們。一般的案子我不會這樣做。但情況是這樣：9 個月來我們卡在一份對你來說小、對我來說攸關生死的合約上。**我不是來抱怨你團隊的**。**我是來問你一個問題**——而你是唯一能回答的人。"
+        },
+        {
+          "role": "host",
+          "en": "<em>Go ahead</em>. But understand, the answer might not be what you want to hear.",
+          "tw": "**問吧**。但你要知道，答案不一定是你想聽的。"
+        },
+        {
+          "role": "you",
+          "en": "<em>Do you actually want this deal closed?</em> Yes or no. That's the question. If yes — then I need to tell you that your team has been blocking it for 9 months, and I'll show you how. If no — <em>tell me right now and I walk away</em>, no hard feelings, and we both save the next 6 months of motion. <em>I just need that answer from you</em>. Not them.",
+          "tw": "**你到底要不要把這個案子收掉？**Yes or no。就這個問題。如果要——那我必須告訴你，你團隊卡了 9 個月，而且我可以證明給你看。如果不要——**現在跟我講，我走人**、沒有任何怨言，我們雙方都省下接下來 6 個月的功夫。**我只需要你的答案**。不是他們的。"
+        },
+        {
+          "role": "host",
+          "en": "<em>That's a bold question</em>, and I'll give you credit for asking it that cleanly. <em>I hear you</em>. But my team has their reasons — they always do, in my experience. <em>Help me understand</em> what makes you think they're blocking instead of doing their job.",
+          "tw": "**這問題夠大膽**，問得這麼乾淨我給你 credit。**我聽到了**。但我團隊有他們的理由——以我經驗他們一直都有。**幫我懂一下**你為什麼覺得他們是在卡、而不是在做他們該做的事。"
+        },
+        {
+          "role": "you",
+          "en": "<em>Here's what I see</em>, and I've documented all of it. Every 3 weeks we agree on terms in a meeting. Then every 3 weeks, exactly like clockwork, a new requirement appears in their next email. Last month it was an insurance clause that wasn't in any prior version. The month before it was a new SLA structure. The month before that it was a warranty extension. <em>That's not procurement doing diligence</em>. <em>That's stalling</em>, and stalling has a pattern.",
+          "tw": "**我看到的是這個**，而且我都有記錄。每 3 週我們在會議上把條件講好。然後每 3 週、像時鐘一樣準，他們下一封信就冒出一個新要求。上個月是保險條款、之前任何版本都沒有。再上個月是新的 SLA 結構。再上個月是保固延長。**這不是採購在做 due diligence**。**這是在拖**，而且拖是有 pattern 的。"
+        },
+        {
+          "role": "host",
+          "en": "<em>Walk me through</em> the specific items. I want to hear them, but <em>be specific</em> — don't give me 'a few things,' give me the actual list with dates.",
+          "tw": "**一個一個說**。我要聽，但**講具體**——不要給我『有幾件事』，給我實際清單跟日期。"
+        },
+        {
+          "role": "you",
+          "en": "<em>Three items</em>, all from the last 90 days. First — they asked for 0.05% field failure rate as a contractual SLA. <em>The industry standard is 0.1%</em>, and we'd already agreed on 0.1 in March. Second — they want 18 months warranty. <em>We agreed on 12 in the March term sheet</em>, signed by their procurement lead. Third — they want regional exclusivity for your operations in Asia. <em>That kills my business in Korea</em>, and it was never raised in any of the first 6 months of discussion. <em>Each one was added after we'd already agreed on the previous one</em>.",
+          "tw": "**三件事**，都是過去 90 天的。第一——他們要求 0.05% field failure rate 寫進合約 SLA。**業界標準是 0.1%**，三月我們就同意 0.1。第二——他們要 18 個月保固。**三月 term sheet 就講好 12 個月**，他們採購主管簽過。第三——他們要你們亞洲營運的區域獨家。**那等於殺掉我在韓國的生意**，前 6 個月討論從來沒提過。**每一條都是在我們同意上一條之後才加進來的**。"
+        },
+        {
+          "role": "host",
+          "en": "<em>I hear you</em>, and that does sound like moving goalposts when you lay it out chronologically. <em>What do you want from me?</em> Specifically — what's the ask that lets you walk out of this room with a path forward?",
+          "tw": "**我聽到了**，這樣按時序攤開來確實像 moving goalposts。**你要我做什麼？**具體一點——什麼樣的 ask 可以讓你帶著一條路走出這間會議室？"
+        },
+        {
+          "role": "you",
+          "en": "<em>One thing</em>, and it's small. Put your CFO and me in a room together for one hour, sometime in the next two weeks. No procurement, no lawyers, just two people who can actually make a decision. We close the deal on the terms we agreed in March, or I walk and we both move on. <em>If we can't close it in that hour, I'll walk myself</em>. <em>That's the test</em> — if it's a real deal, it survives a CFO conversation. If it's not, it dies cleanly.",
+          "tw": "**一件事**，很小。把你 CFO 跟我關在一個房間一個小時，未來兩週內。沒有採購、沒有律師，只有兩個真的能拍板的人。我們在三月講好的條件上把案子收掉，要不然我走、雙方都繼續往前。**如果一個小時內收不掉，我自己走**。**這就是 the test**——如果是真的案子，就撐得過一場 CFO 對話。如果不是，就乾淨地死掉。"
+        },
+        {
+          "role": "host",
+          "en": "Final question. <em>In one sentence</em> — why should I trust you over my own team?",
+          "tw": "最後一題。**用一句話**——我為什麼該信你、不信我自己的團隊？"
+        },
+        {
+          "role": "you",
+          "en": "<em>Trust me to walk. Then trust me to close</em>.",
+          "tw": "先信我會走。然後信我會收。"
+        },
+        {
+          "role": "host",
+          "en": "Tuesday, 2 PM, my office. CFO will be there.",
+          "tw": "週二下午兩點，我辦公室。CFO 會在。"
+        }
+      ]
+    },
+    {
+      "id": "ep19",
+      "num": "EP.19",
+      "title": "Shopping in SoHo",
+      "tagline": "週六下午跟伴侶逛街 · 試穿、店員推銷、決定要不要買 · 自然口語對話",
+      "tag": "🛍️ 生活 · 逛街",
+      "lines": [
+        {
+          "role": "host",
+          "en": "<em>What do you think</em> of this jacket? Too much?",
+          "tw": "**你覺得**這件外套怎樣？太誇張嗎？"
+        },
+        {
+          "role": "you",
+          "en": "<em>I like it</em>. The color works on you. Try it on.",
+          "tw": "**我喜歡**。顏色適合你。穿穿看。"
+        },
+        {
+          "role": "host",
+          "en": "Okay. Wait — <em>do you have this in medium?</em>",
+          "tw": "好。等等——**這件有 M 號嗎？**"
+        },
+        {
+          "role": "you",
+          "en": "<em>Excuse me — do you have this in medium?</em> My partner wants to try it on.",
+          "tw": "**不好意思——這件有 M 號嗎？**我伴侶想試穿。"
+        },
+        {
+          "role": "host",
+          "en": "<em>I'll go check</em>. The fitting room is on the left.",
+          "tw": "**我去看看**。試衣間在左邊。"
+        },
+        {
+          "role": "you",
+          "en": "<em>What do you think</em>? Honest answer.",
+          "tw": "**你覺得**怎樣？老實說。"
+        },
+        {
+          "role": "host",
+          "en": "<em>It's nice</em>. But <em>it's a bit too</em> tight on the shoulders. <em>I'm not sure</em>.",
+          "tw": "**滿好看的**。但**肩膀有點**太緊。**我不太確定**。"
+        },
+        {
+          "role": "you",
+          "en": "<em>Take your time</em>. <em>Do they have it</em> in large?",
+          "tw": "**慢慢試**。**有 L 號嗎？**"
+        },
+        {
+          "role": "host",
+          "en": "<em>I'll ask</em>. Actually — <em>let's see</em> the price first. It might not be worth it.",
+          "tw": "**我問問**。其實——**先看一下**價格。可能不值得買。"
+        },
+        {
+          "role": "you",
+          "en": "<em>How much is it?</em>",
+          "tw": "**多少錢？**"
+        },
+        {
+          "role": "host",
+          "en": "380 dollars. <em>That's a bit much</em>. <em>Maybe later</em>.",
+          "tw": "380 美金。**有點貴**。**之後再說吧**。"
+        },
+        {
+          "role": "you",
+          "en": "<em>Could you hold it</em> for an hour? <em>We want to think about it</em>.",
+          "tw": "**可以幫我留一個小時嗎？我們想考慮一下**。"
+        },
+        {
+          "role": "host",
+          "en": "<em>Sure</em>. Under what name?",
+          "tw": "**沒問題**。要用什麼名字？"
+        },
+        {
+          "role": "you",
+          "en": "<em>Russell</em>. Thanks. <em>Let's go get coffee</em> and decide.",
+          "tw": "**Russell**。謝謝。**我們去喝咖啡**再決定。"
+        }
+      ]
+    },
+    {
+      "id": "ep20",
+      "num": "EP.20",
+      "title": "Coffee Break",
+      "tagline": "逛累了找咖啡館休息 · 跟伴侶討論買不買、計畫晚餐 · 點咖啡 + 點心",
+      "tag": "☕ 生活 · 咖啡館",
+      "lines": [
+        {
+          "role": "host",
+          "en": "<em>This place looks nice</em>. <em>Let's grab</em> a table by the window.",
+          "tw": "**這家看起來不錯**。**我們找**靠窗的位子。"
+        },
+        {
+          "role": "you",
+          "en": "<em>Sounds good</em>. <em>I'll order</em> — what do you want?",
+          "tw": "**好啊**。**我去點**——你要喝什麼？"
+        },
+        {
+          "role": "host",
+          "en": "<em>I'm not sure</em>. <em>What do you recommend?</em> Something not too sweet.",
+          "tw": "**我不確定**。**你推薦什麼？**不要太甜的。"
+        },
+        {
+          "role": "you",
+          "en": "<em>Hi — could I get</em> a flat white and an Americano? And <em>do you have</em> anything not too sweet to eat?",
+          "tw": "**你好——可以點**一杯 flat white 跟一杯美式咖啡嗎？還有，**有沒有**什麼不太甜的點心？"
+        },
+        {
+          "role": "host",
+          "en": "<em>The almond croissant</em> is popular. <em>Not too sweet</em>, more buttery.",
+          "tw": "**杏仁可頌**很多人點。**不會太甜**，比較有奶油味。"
+        },
+        {
+          "role": "you",
+          "en": "<em>Sounds good</em>. <em>We'll take</em> one of those. <em>That's it, thanks</em>.",
+          "tw": "**聽起來不錯**。**我們要**一個。**就這樣，謝謝**。"
+        },
+        {
+          "role": "host",
+          "en": "<em>So — the jacket</em>. <em>What do you think?</em> Honest answer.",
+          "tw": "**所以——那件外套**。**你覺得呢？**老實說。"
+        },
+        {
+          "role": "you",
+          "en": "<em>Honestly</em>? <em>I liked it</em>, but 380 is a lot. <em>Maybe</em> we wait for a sale.",
+          "tw": "**老實說**？**我喜歡**，但 380 有點多。**或許**等打折再說。"
+        },
+        {
+          "role": "host",
+          "en": "<em>That's fair</em>. <em>I'm not sure</em> I'd wear it that often anyway. <em>Let's pass</em>.",
+          "tw": "**有道理**。**我也不太確定**我會常穿。**算了吧**。"
+        },
+        {
+          "role": "you",
+          "en": "<em>Good call</em>. <em>So — dinner</em>. Italian or Japanese?",
+          "tw": "**這決定好**。**那——晚餐**呢？義大利菜還是日本菜？"
+        },
+        {
+          "role": "host",
+          "en": "<em>I'd go for</em> Italian. <em>What do you think</em> of that place near the bookstore?",
+          "tw": "**我想吃**義大利菜。**你覺得**書店旁邊那家怎樣？"
+        },
+        {
+          "role": "you",
+          "en": "<em>I've heard good things</em>. <em>Let's book</em> a table. 7:30?",
+          "tw": "**聽說不錯**。**我們訂位**。七點半？"
+        },
+        {
+          "role": "host",
+          "en": "<em>Works for me</em>. <em>Could you call</em>? My phone's almost dead.",
+          "tw": "**可以**。**你打電話好嗎？**我手機快沒電。"
+        },
+        {
+          "role": "you",
+          "en": "<em>Sure thing</em>.",
+          "tw": "**沒問題**。"
+        }
+      ]
+    },
+    {
+      "id": "ep21",
+      "num": "EP.21",
+      "title": "Dinner Out",
+      "tagline": "晚餐 · 點餐、餐點出問題、要結帳 · 你要懂得自然抱怨跟感謝服務",
+      "tag": "🍝 生活 · 餐廳",
+      "lines": [
+        {
+          "role": "host",
+          "en": "<em>Good evening — do you have a reservation?</em>",
+          "tw": "**晚安——請問有訂位嗎？**"
+        },
+        {
+          "role": "you",
+          "en": "<em>Yes, under Russell</em>. <em>A table for two</em>, 7:30.",
+          "tw": "**有，Russell 的名字**。**兩位**，七點半。"
+        },
+        {
+          "role": "host",
+          "en": "<em>Right this way</em>. <em>Could I get you</em> something to drink to start?",
+          "tw": "**這邊請**。**先給您**送點什麼喝的？"
+        },
+        {
+          "role": "you",
+          "en": "<em>Two glasses of</em> the house red, please. And <em>could we see</em> the menu?",
+          "tw": "**兩杯**店家紅酒，謝謝。還有**能不能看一下**菜單？"
+        },
+        {
+          "role": "host",
+          "en": "<em>Of course</em>. <em>I'll be right back</em> with your wine.",
+          "tw": "**當然**。**我馬上回來**送酒。"
+        },
+        {
+          "role": "you",
+          "en": "<em>What do you recommend?</em> First time here.",
+          "tw": "**你推薦什麼？**第一次來。"
+        },
+        {
+          "role": "host",
+          "en": "<em>The truffle pasta</em> is our signature. <em>And the sea bass</em> is fresh today. <em>Both are great</em>.",
+          "tw": "**松露義大利麵**是我們招牌。**鱸魚**今天新鮮到貨。**兩個都很棒**。"
+        },
+        {
+          "role": "you",
+          "en": "<em>I'll have the pasta</em>. <em>And my partner will have</em> the sea bass.",
+          "tw": "**我要義大利麵**。**我伴侶要**鱸魚。"
+        },
+        {
+          "role": "host",
+          "en": "<em>Excellent choice</em>. Any starters?",
+          "tw": "**很好的選擇**。要前菜嗎？"
+        },
+        {
+          "role": "you",
+          "en": "<em>Just the mains</em>, thanks.",
+          "tw": "**只要主菜**，謝謝。"
+        },
+        {
+          "role": "host",
+          "en": "<em>Excuse me</em> — this sea bass <em>tastes a bit off</em>. <em>Could you check with the kitchen?</em>",
+          "tw": "**不好意思**——這個鱸魚**味道有點怪**。**可以請廚房確認一下嗎？**"
+        },
+        {
+          "role": "you",
+          "en": "<em>I'm so sorry</em>. <em>Let me take it back</em>. <em>I'll bring you a fresh one</em> — on the house.",
+          "tw": "**真的很抱歉**。**讓我收回去**。**我幫您送一份新的**——這份不收費。"
+        },
+        {
+          "role": "host",
+          "en": "<em>Thanks for taking care of it</em>. <em>Could we get the check</em> when you have a moment?",
+          "tw": "**謝謝您處理**。**方便的時候麻煩給我們帳單**。"
+        },
+        {
+          "role": "you",
+          "en": "<em>Right away</em>. And <em>thank you for being patient</em>.",
+          "tw": "**馬上來**。也**謝謝您的耐心**。"
+        }
+      ]
+    },
+    {
+      "id": "ep22",
+      "num": "EP.22",
+      "title": "Soft Push on Sales: When the VP Overcommits",
+      "tagline": "Sales VP 跟大客戶承諾 8 週交付 · 工程說要 16 週 · 你要讓銷售 own 這個 mismatch 而不是 dump 給你",
+      "tag": "🤝 Internal Soft Push · 對銷售",
+      "lines": [
+        {
+          "role": "host",
+          "en": "Russell, thanks for grabbing time on short notice. <em>I've got 30 minutes</em> before my next call. Before you start — <em>I already know what this is about</em>. The Acme commitment. Engineering can't hit 8 weeks, can they? Just give me the bad news straight.",
+          "tw": "Russell，謝謝你臨時擠時間進來。**我下個會之前有 30 分鐘**。在你開口之前——**我已經知道你要講什麼**。Acme 那個承諾。工程交不出 8 週對吧？直接給我壞消息就好。"
+        },
+        {
+          "role": "you",
+          "en": "<em>Before I answer that</em>, let me ask you something different. <em>Help me understand</em> what's actually flexible on Acme's side, because I think we're solving the wrong problem. Before we talk timeline at all — <em>what do they actually need by week 8?</em> Not the whole feature set on paper, but the thing they're really trying to accomplish at that date. If we know that, we might have more room than either of us thinks.",
+          "tw": "**回答之前**，讓我問你一個不一樣的問題。**幫我了解一下**Acme 那邊真正可以彈性的是什麼，因為我覺得我們在解錯的問題。在我們討論時程之前——**他們第 8 週實際需要的是什麼？**不是紙上那整套功能，是他們在那個日期真正想完成的事。如果我們知道這個，我們可能比兩邊想像的都還有空間。"
+        },
+        {
+          "role": "host",
+          "en": "<em>Honestly</em>, what they need is the integration live and demonstrable. That's why I committed it to that date — they're going public with it at their user conference in Q3. The whole keynote is built around showing this thing on stage in front of 4,000 customers and analysts.",
+          "tw": "**老實說**，他們要的是 integration 上線、可以展示。所以我才 commit 那個日期——他們要在 Q3 用戶大會上公開發表。整個 keynote 就是要在 4,000 個客戶跟分析師面前 demo 這個。"
+        },
+        {
+          "role": "you",
+          "en": "<em>Okay, got it</em> — so the real deadline is the user conference, not week 8 per se. That's actually huge, because it gives us more room than you think to work with. <em>Let me throw something at you</em>: what if we deliver the core integration by week 8 — exactly what they need to demo on stage — and then bring the full feature set live by week 12, well before any real customer would actually be using it in production? <em>Would that work for what Acme actually needs?</em>",
+          "tw": "**好，懂了**——所以真正的 deadline 是用戶大會，不是第 8 週本身。這個其實很重要，因為比你想的多了不少空間。**讓我丟一個想法給你**：第 8 週交核心 integration——他們上台 demo 需要的部分——然後第 12 週把完整功能上線，在任何客戶真的用在 production 之前。**這樣對 Acme 真正需要的東西 work 嗎？**"
+        },
+        {
+          "role": "host",
+          "en": "<em>Maybe</em>. But here's my problem — I committed to 'full launch' in writing. Going back to them now and saying 'actually, we're doing it in phases' <em>looks bad on me</em>, and it looks bad on us as a company. I'm not sure I can sell that internally.",
+          "tw": "**或許**。但我問題是這個——我白紙黑字 commit『完整 launch』。現在回去跟他們講『其實我們要分階段做』**看起來像是我搞砸**，對公司也不好看。我不確定內部賣得過去。"
+        },
+        {
+          "role": "you",
+          "en": "<em>I hear that</em>, and that's a real concern — going back is never fun. <em>But here's the question I think you have to actually answer</em>: does it look worse to scope down now, on your terms, while you still control the narrative? Or does it look worse to miss the date entirely in 6 weeks, when engineering hits the wall, and you're scrambling on Acme's timeline instead of yours? <em>One version you walk in with a plan</em>. The other version you walk in with an apology.",
+          "tw": "**我懂**，這是真實的擔憂——回去從來不好玩。**但我覺得你真正要回答的問題是這個**：是現在按你的條件、你還在 control narrative 的時候縮 scope 比較糟？還是 6 週後工程撞牆、你在 Acme 的時程下抓狂、整個 miss 掉比較糟？**一個版本你帶著計畫走進去**。另一個版本你帶著道歉走進去。"
+        },
+        {
+          "role": "host",
+          "en": "<em>Okay, you're not wrong</em>. When you put it like that, the choice gets clearer. <em>What would you suggest</em> I actually say to them? Because the framing matters a lot — Acme's procurement lead is very sensitive to anything that looks like backtracking.",
+          "tw": "**好，你說的沒錯**。這樣講選擇就清楚多了。**你建議**我實際上怎麼跟他們講？因為 framing 很重要——Acme 採購主管對任何看起來像在 backtrack 的東西很敏感。"
+        },
+        {
+          "role": "you",
+          "en": "<em>Frame it as good news</em>, because honestly it kind of is for them. We're moving from a single risky drop to a structured rollout — <em>Phase 1 by week 8</em>, exactly what they need for the conference keynote, fully tested, no scrambling. <em>Phase 2 by week 12</em>, full functionality ready before any production usage. And <em>tell them you advocated internally for this safer plan</em> because you didn't want to put their launch event at risk. That's true, it's flattering to them, and it makes you the hero instead of the bearer of bad news.",
+          "tw": "**包裝成好消息**，因為老實說對他們來說某種程度真的是好消息。我們從一個冒險的單次上線、變成有結構的 rollout——**第 8 週 Phase 1**，正好是 keynote 需要的部分、測試完整、不會手忙腳亂。**第 12 週 Phase 2**，完整功能、在任何 production 使用之前就 ready。然後**告訴他們你內部爭取了這個更穩的方案**，因為你不想讓他們的 launch event 出風險。這是真的、對他們是恭維，也讓你變成英雄、不是壞消息的傳遞者。"
+        },
+        {
+          "role": "host",
+          "en": "<em>That actually sounds better than what I committed</em> in the first place, when I say it out loud. Last question — can engineering really hit week 8 for Phase 1? Because if we tell Acme this and then miss again, I'm finished with them.",
+          "tw": "**這聽起來比我原本承諾的還好**，講出來就感覺到。最後一個問題——工程真的可以第 8 週交 Phase 1 嗎？因為如果我們這樣跟 Acme 講、然後又 miss，我跟他們就玩完了。"
+        },
+        {
+          "role": "you",
+          "en": "<em>I've already talked to engineering this morning</em>, before we sat down. They can hit week 8 for Phase 1 — but only if we lock the Phase 1 scope today, no further additions, no 'one more small thing.' <em>That's what I need from you</em>, and it's the only part of this I need quickly. Get Acme to sign off on the Phase 1 scope document by Friday. Once that's locked, engineering owns the date. If it slips after that, it's on us, not on the plan.",
+          "tw": "**今早跟你坐下來之前我已經跟工程談過了**。第 8 週 Phase 1 可以做到——但前提是今天就把 Phase 1 scope 鎖死、不再加、不要『再加一個小東西』。**我需要你做的就是這個**，也是這整件事我唯一急著要的部分。讓 Acme 在週五前把 Phase 1 scope document 簽掉。鎖住之後，工程就 own 那個日期。如果之後 slip，責任在我們、不在計畫。"
+        },
+        {
+          "role": "host",
+          "en": "Final question. <em>In one sentence</em> — why is this better than what I originally committed?",
+          "tw": "最後一題。**用一句話**——這個為什麼比我原本承諾的好？"
+        },
+        {
+          "role": "you",
+          "en": "<em>Because a smaller promise kept beats a bigger one broken</em>.",
+          "tw": "因為小承諾守住，勝過大承諾跳票。"
+        },
+        {
+          "role": "host",
+          "en": "I'll call Acme this afternoon. Send me the Phase 1 scope draft by 3.",
+          "tw": "今天下午我打給 Acme。三點前把 Phase 1 scope 草稿寄給我。"
+        }
+      ]
+    },
+    {
+      "id": "ep23",
+      "num": "EP.23",
+      "title": "Unblocking Engineering: 'We Can't Hit That Date'",
+      "tagline": "工程經理告訴你 sprint 又要延期 · 你要找出真正卡點 · 不能變成 micromanager 但也不能被打發",
+      "tag": "🤝 Internal Soft Push · 對工程",
+      "lines": [
+        {
+          "role": "host",
+          "en": "Russell, <em>we're not going to hit</em> the Friday deadline. I wanted to tell you now rather than at the standup tomorrow, so you can start managing expectations on your end. I know that's not what you wanted to hear today.",
+          "tw": "Russell，**我們週五交不出來**。我想現在跟你講、而不是等明天的 standup，這樣你那邊可以開始管 expectations。我知道這不是你今天想聽的。"
+        },
+        {
+          "role": "you",
+          "en": "<em>I appreciate the heads-up</em>, genuinely — coming early is way better than coming late. <em>Before I start escalating anything upward</em>, can you <em>walk me through</em> what's actually blocking? I'm not trying to challenge you, I just want to understand the shape of the problem. Is this a scope issue, a capacity issue, a dependency issue, or something I haven't thought of yet?",
+          "tw": "**真的感謝你先講**——早講比晚講好太多。**在我開始往上 escalate 之前**，可不可以**幫我說明一下**到底什麼在卡？我不是要挑戰你、就是想懂這個問題的形狀。是 scope 問題、人力問題、相依性問題，還是我沒想到的？"
+        },
+        {
+          "role": "host",
+          "en": "<em>It's complicated</em>, and that's part of what's making this hard. The auth refactor is taking way longer than any of us estimated. <em>We didn't realize</em> how much legacy code across the platform still depends on the old session model — every time we touch one thing, three other things break in unexpected places.",
+          "tw": "**很複雜**，這也是讓人頭痛的部分。Auth refactor 比我們任何人估計的久太多。**我們沒意識到**整個平台還有多少舊 code 在用舊的 session model——每次動一個地方，三個地方在意想不到的位置壞掉。"
+        },
+        {
+          "role": "you",
+          "en": "<em>That actually makes a lot of sense</em>, and it explains the pattern I've been seeing. <em>Help me understand the depth of the unknown here</em> — and I want a real answer, not a comforting one. Are we talking about 3 days late, 3 weeks late, or do we honestly not know yet? Because those are three completely different conversations, and I need to know which one we're having.",
+          "tw": "**這其實非常合理**，也解釋了我一直看到的 pattern。**幫我了解一下這個未知的深度**——我要真的答案、不是安慰我的答案。我們在講延 3 天、延 3 週、還是其實還不知道？因為這是三個完全不同的對話，我需要知道我們在哪一個。"
+        },
+        {
+          "role": "host",
+          "en": "<em>Honestly?</em> <em>We don't know yet</em>. Every time we think we've found the bottom of the dependency chain, we find another layer. <em>That's the scary part</em> — it's not that we're late, it's that we genuinely can't tell you how late yet.",
+          "tw": "**老實說？我們還不知道**。每次我們以為找到相依鏈的底了，又冒出新一層。**這才是可怕的地方**——不是說我們延，是我們真的講不出來會延多久。"
+        },
+        {
+          "role": "you",
+          "en": "<em>That's actually really useful to know</em>, and thank you for being straight with me about it. <em>'I don't know' is a fundamentally different problem than 'late'</em>, and we're going to handle it differently. So let me ask the question that matters: <em>what would help</em> you get to a confident estimate by, say, Wednesday this week? Not the final delivery date — just an honest estimate of when we'll know the answer. Forget what we don't have. What would unlock this?",
+          "tw": "**這資訊很有用**，謝謝你跟我說實話。**『我不知道』跟『延期』根本是不同的問題**，處理方式也不一樣。所以讓我問真正重要的問題：**什麼東西可以幫你**在這週三前給我一個有信心的估計？不是最終交付日期——只是『我們什麼時候會知道答案』的誠實估計。先不管我們沒有什麼。什麼可以 unlock 這件事？"
+        },
+        {
+          "role": "host",
+          "en": "<em>If I could pull Marcus</em> off the integration work for 2 days — just 2 days, not more — <em>he could map out the full dependency graph</em>. He's the only one who's been deep enough in both the old and new session models to do this. Once we have the map, we'll know what we're dealing with.",
+          "tw": "**如果可以把 Marcus** 從 integration 那邊抽 2 天——就 2 天、不要更多——**他可以把整個相依圖譜 map 出來**。他是唯一在新舊 session model 都夠深的人。Map 出來我們就知道在處理什麼了。"
+        },
+        {
+          "role": "you",
+          "en": "<em>Done — Marcus is yours for those two days</em>, starting now. <em>I'll cover the integration delay</em> with the partner team myself — I'll go talk to them this afternoon and reset that conversation. Don't worry about that side of things. <em>Is there anything else</em> getting in the way right now? Because while we're talking, I'd rather hear about all of it at once than have it dribble out over the next week.",
+          "tw": "**好——Marcus 那兩天歸你**，從現在開始。**Integration 延期我自己去跟合作團隊處理**——下午我去找他們、重設那邊的對話。那邊不用擔心。**還有其他東西**現在擋著嗎？因為既然我們在談，我寧願現在一次聽完，而不是接下來一週慢慢冒出來。"
+        },
+        {
+          "role": "host",
+          "en": "<em>That helps a lot</em>, more than you know. <em>Actually</em>, since you're asking — the QA staging environment has been flaky for two weeks. Tests fail intermittently and we can't tell what's a real failure versus an infrastructure failure. <em>If we had a clean staging</em>, our cycle time would drop by half.",
+          "tw": "**這幫很大**，比你想的多。**其實**，既然你問——QA staging 環境兩週了一直不穩。測試 intermittent fail，我們分不出是真的 failure 還是 infrastructure failure。**如果有個乾淨的 staging**，我們 cycle time 直接降一半。"
+        },
+        {
+          "role": "you",
+          "en": "<em>I'll talk to infra today</em>, before end of day. That's not your problem to solve, that's mine. Now <em>here's what I need from you in return</em>, and I want to be really clear about this: Wednesday morning, you give me the dependency map from Marcus plus a real estimate. <em>Even if it's bad news</em> — especially if it's bad news — I need it in my hands Wednesday morning. Not Wednesday afternoon, not Thursday. That's the trade.",
+          "tw": "**我今天 EOD 前去找 infra**。那不是你要解決的問題，是我的。然後**我需要你回報我的是這個**，我想講得很清楚：週三早上，你給我 Marcus 做的相依圖譜、加上一個真實的估計。**就算是壞消息**——尤其是壞消息——我要週三早上拿到。不是週三下午、不是週四。這就是交換。"
+        },
+        {
+          "role": "host",
+          "en": "Final question. <em>In one sentence</em> — why are you not freaking out about this?",
+          "tw": "最後一題。**用一句話**——你為什麼沒有在抓狂？"
+        },
+        {
+          "role": "you",
+          "en": "<em>Because 'I don't know yet' is a problem I can solve</em>.",
+          "tw": "因為『我還不知道』是我可以解決的問題。"
+        },
+        {
+          "role": "host",
+          "en": "Wednesday morning. You'll have it on your desk by 9.",
+          "tw": "週三早上。九點前放在你桌上。"
+        }
+      ]
+    },
+    {
+      "id": "ep24",
+      "num": "EP.24",
+      "title": "Soft Push on Legal: 'These Clauses Are Killing Us'",
+      "tagline": "法務在客戶合約塞一堆條款 · 業務在抱怨太慢 · 你要找到法務 underlying concern 不是去吵",
+      "tag": "🤝 Internal Soft Push · 對法務",
+      "lines": [
+        {
+          "role": "host",
+          "en": "Russell, <em>I have 15 minutes</em> between calls, so let's make this efficient. <em>Tell me what you need</em> on the Acme contract, but I'm going to warn you upfront — I'm not changing my position on the indemnification structure unless you've got something genuinely new for me.",
+          "tw": "Russell，**會議之間我有 15 分鐘**，我們高效一點。**講你要的**——Acme 那份合約。但我先警告你——除非你有真的新的東西給我，否則 indemnification 結構上我不會改立場。"
+        },
+        {
+          "role": "you",
+          "en": "<em>I want to make sure we're aligned</em> first, before I ask for anything. <em>Help me understand what you're actually protecting us against</em>, because Sales tells me we've gone back to Acme four times on this indemnification language, and I genuinely don't understand what specific risk you're trying to close. I'm not here to argue — I'm here to learn what you know that I don't.",
+          "tw": "**我先想確認我們對齊**——再來才會 ask 任何東西。**幫我了解你實際上在保護什麼**，因為 Sales 告訴我這個 indemnification 用詞我們已經跟 Acme 來回 4 次了，我真的不懂你想關掉的具體風險是什麼。我不是來吵的——我是來學你知道、我不知道的東西。"
+        },
+        {
+          "role": "host",
+          "en": "<em>The current indemnity exposes us</em> to consequential damages on third-party claims, with no cap. <em>Last year</em> we had a similar arrangement on the Vertex deal — same structure, same scope of indemnity — and it blew up. <em>Cost us close to 2 million</em> in legal fees and settlement. I'm not letting that happen on my watch a second time.",
+          "tw": "**目前的 indemnity 讓我們曝險**——第三方索賠的 consequential damages、沒有上限。**去年**我們在 Vertex 那個案子有類似安排——同樣結構、同樣 indemnity 範圍——結果炸了。**賠了快 200 萬**——律師費加和解金。我絕對不讓這個在我手上再發生第二次。"
+        },
+        {
+          "role": "you",
+          "en": "<em>That's a completely fair concern</em>, and I hadn't connected this to the Vertex incident — that context actually changes how I'm thinking about this. <em>So if I understand correctly</em>, the issue isn't the indemnification structure as a whole — it's <em>specifically the uncapped consequential damages on third-party claims</em>. <em>Is that right?</em> Or is there something else folded in I'm not seeing?",
+          "tw": "**這個擔憂完全合理**，我之前沒把這個跟 Vertex 事件連起來——這個 context 改變我思考這件事的方式。**所以如果我理解正確**，問題不是整個 indemnification 結構——是**具體在『沒有上限的第三方 consequential damages』這塊**。**對嗎？**還是有什麼我沒看到的別的東西混在裡面？"
+        },
+        {
+          "role": "host",
+          "en": "<em>Yes, exactly that</em>. Everything else in the structure is fine — assignment, sublicensing, all the standard pieces. <em>If we capped the third-party consequential damages</em> at, say, 12 months of fees, I'd sign the whole thing tomorrow. That's the only piece holding me up.",
+          "tw": "**對，就是這個**。結構其他部分都 OK——讓渡、再授權、所有標準條文。**如果第三方 consequential damages 封頂**——比如 12 個月費用——我明天就把整份簽掉。卡住我的就只有這一塊。"
+        },
+        {
+          "role": "you",
+          "en": "<em>Okay, got it</em> — that's actually a much narrower problem than I thought we had, and that's encouraging. <em>So the cap on third-party consequential damages is the unlock</em>. <em>Let me ask you something</em> before we go further: has Acme ever actually pushed back on a cap like that in previous discussions, or is it untested? I'm trying to figure out if we're solving a real Acme objection or a hypothetical one.",
+          "tw": "**好，懂了**——這個問題其實比我以為的窄很多，這蠻讓我安心的。**所以第三方 consequential damages 封頂就是 unlock 的點**。**在我們繼續之前讓我問一下**：Acme 之前有真的反推過這種封頂嗎，還是其實沒測試過？我想搞清楚我們在解的是真的 Acme 反對的東西、還是假設性的。"
+        },
+        {
+          "role": "host",
+          "en": "<em>Honestly?</em> <em>I haven't actually asked them</em> directly — I just put the cap in our standard ask, and when they push back on indemnity in general, I assumed they'd push back on the cap too. But I've never put it in front of them as a clean proposal and waited to see.",
+          "tw": "**老實說？我其實沒直接問過他們**——我就把封頂放進我們的 standard ask，他們在 indemnity 上整個反推的時候，我就假設他們也會反推封頂。但我從來沒把它當成一個乾淨的提議擺在他們面前、等他們回應。"
+        },
+        {
+          "role": "you",
+          "en": "<em>Here's what I'd like to try</em>, and I want your read on whether it's reasonable. <em>Let me go to Acme directly</em> with the cap proposal as a single clean ask — <em>framed as our standard for partnerships of this size</em>, not as a negotiation concession. If they accept it as written, we save 4 to 6 weeks of legal back-and-forth and we close the deal. If they push back, you and I regroup and figure out the next move together. <em>Are you okay with me running that experiment?</em>",
+          "tw": "**我想試這個做法**，想聽你判斷合不合理。**讓我直接去找 Acme**——把封頂當成一個乾淨的 ask——**包裝成我們這個規模合作關係的 standard**、不是談判讓步。如果他們照寫的接受，我們省下 4 到 6 週的 legal 來回、把案子收掉。如果他們反推，你跟我再聚一次、一起想下一步。**你 OK 我跑這個實驗嗎？**"
+        },
+        {
+          "role": "host",
+          "en": "<em>I'm okay with that approach</em>, with one condition — and this is non-negotiable. I want to see Acme's written response before we redline anything on our side. <em>Don't sign anything, don't agree to anything</em> in a meeting, until I've reviewed their response. Send it to me as soon as you get it.",
+          "tw": "**我 OK 這個做法**——一個條件、不能讓。我要在我們這邊 redline 之前看到 Acme 的書面回應。**任何東西都不要簽、會議上任何東西都不要答應**——等我審完他們的回應。一拿到就寄給我。"
+        },
+        {
+          "role": "you",
+          "en": "<em>Absolutely, you'll see everything</em> — I wouldn't move without your sign-off on a clause like this. <em>And here's what I'd ask in return</em>, while we're being transparent with each other: if Acme accepts the cap as standard, <em>can we agree</em> this becomes our template for similar-sized deals going forward? <em>One thorough review now</em>, much faster cycles on the next five contracts. Both sides get something they want.",
+          "tw": "**當然，所有東西你都會看到**——這種條款我不會在沒有你同意的情況下動。**順便互相透明的話，我也想反過來請你一件事**：如果 Acme 把這個封頂接受成 standard，**我們能不能說好**這變成未來類似規模 deal 的模板？**現在徹底審一次**，接下來 5 個合約 cycle 都快很多。雙方都拿到想要的東西。"
+        },
+        {
+          "role": "host",
+          "en": "Final question. <em>In one sentence</em> — why should I trust you to negotiate this yourself?",
+          "tw": "最後一題。**用一句話**——我為什麼該信你自己去談這個？"
+        },
+        {
+          "role": "you",
+          "en": "<em>Because I'm not removing your concern — I'm testing whether it matters</em>.",
+          "tw": "因為我不是要拿掉你的擔憂——我是要去測試它重不重要。"
+        },
+        {
+          "role": "host",
+          "en": "Run it. Bring me their response before any redlines.",
+          "tw": "去跑。Redline 之前把他們的回應給我。"
+        }
+      ]
+    },
+    {
+      "id": "ep25",
+      "num": "EP.25",
+      "title": "Cross-functional Alignment: When Marketing Won't Prioritize",
+      "tagline": "你要 Marketing VP 在 Q3 launch 投入資源 · 她在追 Q2 數字 · 你不是她的 priority · 你要改變這個",
+      "tag": "🤝 Internal Soft Push · 跨部門",
+      "lines": [
+        {
+          "role": "host",
+          "en": "Russell, <em>I've got a hard stop in 20 minutes</em> — board prep, can't move it. <em>Before you ask</em>, let me head you off — <em>I genuinely can't promise resources</em> on the Q3 launch right now. My team is underwater on Q2 numbers, my CMO is breathing down my neck, and I literally don't have a person to give you. <em>Tell me what you need anyway</em>, but I want to be honest about where I am.",
+          "tw": "Russell，**我 20 分鐘後一定要走**——董事會 prep、不能改。**在你開口之前**讓我先擋住——**Q3 launch 的資源我真的現在不能承諾**。我團隊 Q2 數字快淹死、我的 CMO 在脖子後面追我、而且我真的沒有人可以給你。**你要的還是跟我講**，但我想對我的狀況誠實。"
+        },
+        {
+          "role": "you",
+          "en": "<em>I hear you completely</em>, and I'm not going to pretend I don't know how Q2 looks for you — it's clearly a fire drill. <em>Q2 first, I get it</em>. So let me ask you a totally different question instead of the one you're expecting. <em>What would have to be true</em> about the Q3 launch for it to actually <em>help</em> your Q2 push, instead of competing with it for your team's attention? Because I think we might be framing this wrong.",
+          "tw": "**我完全懂**，我不會假裝不知道你 Q2 看起來怎樣——很明顯就是救火現場。**Q2 優先，我理解**。所以讓我換一個完全不同的問題——不是你以為我要問的。**什麼東西要成立**——Q3 launch 才會真的**幫到**你的 Q2、而不是跟它搶你團隊的注意力？因為我覺得我們可能 frame 錯了。"
+        },
+        {
+          "role": "host",
+          "en": "<em>That's an interesting question</em>, I haven't actually thought about it that way. <em>Honestly?</em> If the launch generated <em>pipeline I could close before quarter-end</em>, that would change everything for me. But it's a Q3 launch — <em>by definition the pipeline lands in Q3</em>, which means it doesn't help my Q2 number at all. That's literally why it's on the back burner for me right now.",
+          "tw": "**這問題有趣**，我其實沒這樣想過。**老實說？**如果 launch 能產生**我季末前可以收的 pipeline**，那對我來說整個局面就不一樣了。但這是 Q3 launch——**定義上 pipeline 就是落在 Q3**，所以對我 Q2 的數字毫無幫助。這就是為什麼它現在被我擱著的原因。"
+        },
+        {
+          "role": "you",
+          "en": "<em>And that's the real constraint</em>, which is genuinely useful to surface — thank you for being direct about it. <em>Walk me through</em> something with me. What if we ran a 'design partner' campaign in late Q2 — early access for 5 of your key accounts, with the full launch still landing in Q3? <em>The pipeline lands in your Q2</em> because the partner deals close before quarter-end. <em>Launch is still Q3</em>, which protects your CMO's narrative. <em>Two birds, one bullet</em>.",
+          "tw": "**這才是真正的卡點**，把它攤出來真的很有用——謝謝你直接講。**跟我一起想**一個東西。Q2 後段如果我們跑一個 design partner campaign 怎樣？——你 5 個重點客戶的早期 access、完整 launch 還是 Q3。**Pipeline 落在你的 Q2**——因為 partner deal 在季末前就收。**Launch 還是 Q3**，保護你 CMO 的 narrative。**一槍打兩鳥**。"
+        },
+        {
+          "role": "host",
+          "en": "<em>That could actually work</em>, I'll give you that — the framing is clever. <em>But</em>, and there's always a but with these things — design partner programs aren't free for me. They need real content investment, sales enablement materials, custom decks for each of the 5 accounts. <em>That's still resources I don't have</em>, even if the destination is more attractive.",
+          "tw": "**這真的可能 work**，我給你 credit——這個 frame 很聰明。**但是**，這種事永遠有個但是——design partner program 對我來說不是免費的。需要實際的 content 投資、sales enablement 材料、5 個帳戶各自的客製 deck。**這還是我沒有的資源**——就算終點看起來比較有吸引力。"
+        },
+        {
+          "role": "you",
+          "en": "<em>What if</em> I bring you the whole thing as a turn-key package? My team writes all the content, builds the decks, briefs the AEs directly. <em>You contribute one PMM for 5 days total</em> — just to refine the pitch positioning, because that's the part only Marketing can really nail. <em>5 days of PMM time in exchange for Q2 pipeline acceleration</em>. <em>Worth it?</em> Or am I still asking too much?",
+          "tw": "**如果**我把整套包成 turn-key 給你？我團隊寫所有 content、做 deck、直接 brief AE。**你出一個 PMM 總共 5 天**——只負責 refine pitch positioning，因為這部分只有 Marketing 真的搞得定。**5 天 PMM 時間換 Q2 pipeline 加速**。**划算嗎？**還是我還是要太多？"
+        },
+        {
+          "role": "host",
+          "en": "<em>5 days I can find</em>, that's reasonable. <em>Which PMM</em> did you have in mind specifically? Because if you're going to ask for Marcus or Priya, I have to say no — they're both fully booked on the rebrand. Tell me you have someone else in mind.",
+          "tw": "**5 天我可以擠出來**，這個合理。**哪個 PMM** 你心裡有特定的？因為如果你要 Marcus 或 Priya，我得說不——他們兩個在 rebrand 上滿檔。告訴我你心裡有別人。"
+        },
+        {
+          "role": "you",
+          "en": "<em>Sarah</em>. She knows the product space really well, and <em>she's already been informally helping</em> with the positioning work for the past month — partly because she's interested, partly because she's seen the strategic value. <em>5 dedicated days lets her own it properly</em> instead of doing it on the side at night. It's actually a better use of her time than what she's officially booked on.",
+          "tw": "**Sarah**。她對這個產品領域非常熟，**她其實已經非正式在幫忙 positioning** 一個多月了——一部分因為她有興趣、一部分因為她看到策略價值。**正式給她 5 天她可以好好 own**，不用偷時間做。其實比她現在 official 排的工作是更好的時間運用。"
+        },
+        {
+          "role": "host",
+          "en": "<em>Sarah works, I can free her up</em>. <em>One condition</em>, though — I want a weekly 15-minute check-in with you during those 5 weeks. <em>If the pipeline isn't materializing by week 3</em>, I'm pulling her back to my Q2 fires immediately. <em>No drama, no negotiation</em> at that point.",
+          "tw": "**Sarah 可以、我把她抽出來**。**一個條件**——這 5 週裡我要跟你每週 15 分鐘 check-in。**如果第三週 pipeline 沒進來**，我立刻把她抽回去救我的 Q2 火場。**不戲劇化、不再談判**——那個時候。"
+        },
+        {
+          "role": "you",
+          "en": "<em>Fair, and I'd want the same accountability</em> if I were sitting where you are. <em>Weekly Tuesdays, 15 minutes</em>, I'll put it on your calendar before I leave today. <em>If the pipeline isn't materializing</em>, we course-correct early — no excuses. And just to be really clear about what we're agreeing to: <em>I'm not asking you to fund Q3</em>. <em>I'm asking you to help me accelerate Q2</em>. The Q3 stuff is on me, my team, my budget.",
+          "tw": "**公平、換我坐你位子我也會要同樣的 accountability**。**每週二 15 分鐘**——我今天離開前把它放上你行事曆。**如果 pipeline 沒進來**，我們提早 course-correct——沒有藉口。順便講清楚我們在 agree 的是什麼：**我不是要你 fund Q3**。**我是要你幫我加速 Q2**。Q3 那邊是我、我的團隊、我的預算。"
+        },
+        {
+          "role": "host",
+          "en": "Final question. <em>In one sentence</em> — why didn't you lead with this framing in the first place?",
+          "tw": "最後一題。**用一句話**——你一開始為什麼不用這個 framing？"
+        },
+        {
+          "role": "you",
+          "en": "<em>Because I needed to know your real problem before solving mine</em>.",
+          "tw": "因為我得先知道你真正的問題，才能解我自己的。"
+        },
+        {
+          "role": "host",
+          "en": "Get me the turn-key package brief by Thursday. Sarah starts Monday.",
+          "tw": "週四前 turn-key package brief 給我。Sarah 週一開始。"
+        }
+      ]
+    },
+    {
+      "id": "ep26",
+      "num": "EP.26",
+      "title": "Managing Up: Reset with Your Boss",
+      "tagline": "老闆每週給你不同 #1 priority · 團隊已經疲勞 · 你要 reset expectations 但不能變成壞下屬",
+      "tag": "🤝 Internal Soft Push · 向上管理",
+      "lines": [
+        {
+          "role": "host",
+          "en": "Russell, <em>thanks for the 1-on-1</em>, I almost moved it again but I'm glad we made it work. <em>What's on your mind?</em> <em>Make it quick if you can</em> — I've got the board prep in an hour and I still haven't reviewed the deck.",
+          "tw": "Russell，**謝謝你來 1-on-1**，我差點又改時間、還好我們敲下來。**你想聊什麼？盡量快**——我一個小時後要去董事會 prep、deck 都還沒看過。"
+        },
+        {
+          "role": "you",
+          "en": "<em>I'll be quick, I promise</em>. <em>I want to talk about</em> how we're sequencing priorities at the moment, and I want to say upfront — <em>I'm not complaining</em>, this isn't a vent session. I'm just trying to make sure we're actually <em>shipping the things you care most about</em>, instead of starting a lot of things and finishing none of them. Five minutes of your time, and I think we can fix something that's been bothering you too.",
+          "tw": "**我會快、保證**。**我想聊**我們現在怎麼排 priority、然後我先說——**我不是來抱怨**，這不是一個 vent session。我只是想確認我們真的在 **ship 你最在意的東西**——而不是開很多事、什麼都沒完成。你五分鐘時間，我覺得我們可以修一個其實也在困擾你的問題。"
+        },
+        {
+          "role": "host",
+          "en": "<em>Okay, you have my attention</em>. <em>What do you mean</em> exactly? Because from where I'm sitting, we've been moving fast and that's a feature, not a bug.",
+          "tw": "**好，我聽**。**你具體什麼意思？**因為從我這邊看，我們動得很快——這是 feature、不是 bug。"
+        },
+        {
+          "role": "you",
+          "en": "<em>I hear you on the pace</em>, and I agree pace is important. But <em>in the last 3 weeks</em>, we've moved <em>3 different initiatives</em> into the 'top priority' slot — the Vertex partnership in week one, the platform rebuild in week two, the Asia expansion last Friday. <em>Each one makes sense individually</em>, I want to be clear about that. <em>But the team is context-switching every 5 days</em>, and the honest result is <em>none of the three is getting the focus they actually need to land</em>. Pace and progress aren't the same thing.",
+          "tw": "**我懂你說的步調**，我同意步調很重要。但**過去 3 週**，我們把**3 個不同的 initiative** 放進『最高 priority』的位置——第一週 Vertex partnership、第二週平台 rebuild、上週五亞洲擴張。**每一個單獨看都合理**，我想講清楚這點。**但團隊每 5 天就在 context-switch**，誠實的結果是**三個沒有一個拿到該有的 focus、真的把事情 land**。步調跟進展不是同一件事。"
+        },
+        {
+          "role": "host",
+          "en": "<em>That's actually fair</em>, and now you say it like that — I have noticed velocity dropping on the things we said were important two weeks ago. <em>Things are moving fast</em> at the board level, things shift, and I've been pushing those shifts straight down to you. I see what you're saying.",
+          "tw": "**這其實有道理**，你這樣講——我有注意到兩週前我們講的『重要的事』，velocity 在下降。**事情在董事會層級動得快**，priority 在變，我一直把那些變動直接往下推到你那邊。我懂你在講什麼。"
+        },
+        {
+          "role": "you",
+          "en": "<em>I get that the board level is volatile</em>, and that's not going to change — that's just how your job works. But <em>here's what I'd like to propose</em>, and tell me if it's reasonable. <em>Every Friday afternoon</em>, you and I take 15 minutes and agree on <em>the one or two real top priorities</em> for the following week. <em>Anything that changes mid-week</em>, you and I talk first — I'll absorb the shift on my end before it cascades down to the team. <em>That way I take the chaos</em>, not 12 engineers.",
+          "tw": "**我懂董事會層級就是 volatile**，這個不會變——那就是你工作的本質。但**我想提這個**，你看合不合理。**每週五下午**，你跟我花 15 分鐘把下週**真正的 1-2 個 top priority** 講好。**週中如果有變動**，你跟我先談——我這邊吸收掉、不要 cascade 到團隊。**這樣混亂由我扛**，不是 12 個工程師。"
+        },
+        {
+          "role": "host",
+          "en": "<em>You'd absorb all the changes?</em> That's not nothing. <em>Are you sure</em> that's the right deal for you? Because I'm hearing you offer to take on a lot of friction that I've been distributing.",
+          "tw": "**你要吸收所有變動？**那不是小事。**你確定**這個交易對你是對的嗎？因為我聽到你提議扛下我一直在分散出去的摩擦。"
+        },
+        {
+          "role": "you",
+          "en": "<em>That's literally my job</em>, and I think we've both been forgetting that a bit. <em>I can flex week-to-week</em> — I can reprioritize on Monday morning, reshuffle my own week, deal with a shift in direction without it destroying anything. <em>The team can't do that</em>, not when they're heads-down on execution work. <em>If I'm the shock absorber between you and them</em>, you keep all the agility you need at the board level — <em>but execution stops breaking</em> at the team level. That's a much better trade than where we are now.",
+          "tw": "**這字面上就是我的工作**，我覺得我們兩個都有點忘記這件事。**我可以週週彈性**——禮拜一早上重排 priority、把自己這週 reshuffle、處理方向變動、不會把任何東西搞壞。**團隊不行**——他們在 heads-down 執行的時候沒辦法這樣。**如果我當你跟他們之間的避震器**，你董事會層級需要的 agility 都還在——**但團隊層級的執行不會再壞掉**。比我們現在這樣是好得多的交易。"
+        },
+        {
+          "role": "host",
+          "en": "<em>That's actually what I need</em>, and I should have seen it. <em>I didn't realize</em> the changes were cascading down with that much friction — from my side, it just looked like normal pace. I owe you and the team better visibility than that.",
+          "tw": "**這正是我需要的**，我應該早看到。**我沒意識到**變動 cascade 下去摩擦這麼大——從我這邊看就是正常步調。我欠你跟團隊更好的 visibility。"
+        },
+        {
+          "role": "you",
+          "en": "<em>That's on me for not flagging it sooner</em>, honestly. I should have come to you three weeks ago when I first noticed the pattern, not waited until people started showing up exhausted. <em>Going forward — Friday 4 PM, 15 minutes, recurring</em>. <em>You give me the week's real picture</em> from the board level. <em>I shape it into something the team can actually execute on</em>. <em>Sound good?</em>",
+          "tw": "**這是我沒早點 flag 出來、我的問題**，老實說。三週前我第一次注意到 pattern 就該來找你、不是等到大家開始累垮了。**之後——每週五下午 4 點、15 分鐘、固定下來**。**你給我這週董事會層級的真實狀況**。**我形塑成團隊真的可以執行的東西**。**這樣 OK 嗎？**"
+        },
+        {
+          "role": "host",
+          "en": "Final question. <em>In one sentence</em> — why didn't you say something three weeks ago?",
+          "tw": "最後一題。**用一句話**——你三週前為什麼不講？"
+        },
+        {
+          "role": "you",
+          "en": "<em>Because I was managing the chaos instead of naming it</em>.",
+          "tw": "因為我在處理混亂，而不是把它指出來。"
+        },
+        {
+          "role": "host",
+          "en": "Friday 4 PM, recurring. Starting this week. Now I really do need to go.",
+          "tw": "每週五下午 4 點，固定下來。這週就開始。我真的要走了。"
         }
       ]
     }
